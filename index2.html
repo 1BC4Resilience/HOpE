@@ -15,7 +15,16 @@
   
 <script type="text/javascript" src="shuffle.js"></script>
   
-</head>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+  
+  </head>
 
 <body translate="no">
 <div class="container">
