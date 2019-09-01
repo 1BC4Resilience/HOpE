@@ -3,6 +3,8 @@
 <body>
 
 <script>
+var pageLocation = document.getElementById('body');  
+  
 fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A1:F?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
       return response.json();
@@ -51,7 +53,7 @@ function getItemMarkup(items) {
  * @param {string} markup A string of HTML.
  */
 function appendMarkupToPage(markup) {
-  document.insertAdjacentHTML('beforeend', markup);
+  pageLocation.insertAdjacentHTML('beforeend', markup);
 }
   
   
