@@ -197,8 +197,8 @@ function getItemMarkup(items) {
  * @param {string} markup A string of HTML.
  */
 function appendMarkupToPage(markup) {
-  newHeightInPx = 200;
-  gridContainerElement.style.height = newHeightInPx + 'px';
+  //newHeightInPx = 200;
+  //gridContainerElement.style.height = newHeightInPx + 'px';
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
   
@@ -211,6 +211,11 @@ document.addEventListener('DOMContentLoaded', () => {
       // Create and insert the markup.
       var markup = getItemMarkup(response.values);
       appendMarkupToPage(markup);
+    
+      // Initialize Shuffle now that there are items.
+      shuffleInstance = new Shuffle(gridContainerElement, {
+        itemSelector: '.js-item',
+        sizer: '.my-sizer-element',
     });
   //alert(gridContainerElement.offsetHeight);
   
