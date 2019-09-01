@@ -5,18 +5,11 @@
 <script>
 fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A1:F?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
-    //document.write('<div>Success!</div>');
-  
-    //var list_json  = response.json();
-    document.write(response.body);
-  
-    //return response.json();
+      return response.json();
   })
-  .then(function (response) {
-     // Save the total number of new items returned from the API.
-      //var itemsFromResponse = response.data.length;
+  .then(function (lis_json) {
   
-      //document.write('itemsFromResponse');
+      document.write(JSON.stringify(list_json));
   
     });
 </script>
