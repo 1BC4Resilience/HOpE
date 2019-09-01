@@ -54,7 +54,8 @@ function getItemMarkup(items) {
  * @param {string} markup A string of HTML.
  */
 function appendMarkupToPage(markup) {
-  pageLocation.insertAdjacentHTML('beforeend', markup);
+  document.write(markup);
+  //pageLocation.insertAdjacentHTML('beforeend', markup);
 }
   
   
