@@ -62,7 +62,7 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   //document.body.innerHTML += markup; 
   // test
-  pageLocation.insertAdjacentText('beforeend', markup);
+  pageLocation.insertAdjacentHTML('beforeend', markup);
 }
   
   
