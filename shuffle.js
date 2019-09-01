@@ -197,7 +197,7 @@ function getItemMarkup(items) {
  * @param {string} markup A string of HTML.
  */
 function appendMarkupToPage(markup) {
-  gridContainerElement.insertAdjacentHTML('beforeend', markup);
+  gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
   
 document.addEventListener('DOMContentLoaded', () => {
