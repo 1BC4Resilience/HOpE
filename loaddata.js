@@ -60,7 +60,7 @@ function getItemMarkup(items) {
  * @param {string} markup A string of HTML.
  */
 function appendMarkupToPage(markup) {
-  //document.body.innerHTML += markup;
+  //document.body.innerHTML += markup; 
   pageLocation.insertAdjacentText('beforeend', markup);
 }
   
