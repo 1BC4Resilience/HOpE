@@ -7,16 +7,13 @@ fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX
   .then(function (response) {
     //document.write('<div>Success!</div>');
   
-       // Save the total number of new items returned from the API.
-      var itemsFromResponse = response.data.length;
-  
-      document.write('itemsFromResponse');
+    document.write(response.text());
   
     return response.json();
   })
   .then(function (response) {
      // Save the total number of new items returned from the API.
-      var itemsFromResponse = response.data.length;
+      //var itemsFromResponse = response.data.length;
   
       //document.write('itemsFromResponse');
   
