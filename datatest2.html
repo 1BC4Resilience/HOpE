@@ -5,7 +5,7 @@
 <script>
 var pageLocation = document.getElementById('body');  
   
-fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A1:F?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
+fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A1:H?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
       return response.json();
   })
@@ -28,6 +28,13 @@ fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX
  */
 function getMarkupFromData(dataForSingleItem) {
   var title = dataForSingleItem[0];
+  var location = dataForSingleItem[1];
+  var description = dataForSingleItem[2];
+  var tags = dataForSingleItem[3];
+  var link = dataForSingleItem[4];
+  var image = dataForSingleItem[5];
+  var dateCreated = dataForSingleItem[6];
+  var validated = dataForSingleItem[7];
   
   //"Title","Location","Description","Tags","Link","Image"],["
  //document.body.innerHTML += '<span>' + title + '</span>';
@@ -44,7 +51,7 @@ function getMarkupFromData(dataForSingleItem) {
       '<div class="picture-item__inner">',
       '  <div class="aspect aspect--16x9">'.
       '    <div class="aspect__inner">'.
-      '      <img src="' + Image + '" />',
+      '      <img src="' + image + '" />',
       '    </div>',
       '  </div>',
       '  <div class="picture-item__details">',
