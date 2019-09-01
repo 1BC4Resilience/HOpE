@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
       var markup = getItemMarkup(response.values);
       appendMarkupToPage(markup);
     });
+  alert(gridContainerElement.offsetHeight);
   
   window.demo = new Demo(document.getElementById('grid'));
 });
