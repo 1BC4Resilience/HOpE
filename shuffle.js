@@ -159,6 +159,11 @@ fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX
       // Create and insert the markup.
       var markup = getItemMarkup(response.values);
       appendMarkupToPage(markup);
+  
+      // Initialize Shuffle now that there are items.
+      shuffleInstance = new Shuffle(gridContainerElement, {
+        itemSelector: '.js-item',
+        sizer: '.my-sizer-element',
     });
   
  /**
