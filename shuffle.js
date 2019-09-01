@@ -197,6 +197,8 @@ function getItemMarkup(items) {
  * @param {string} markup A string of HTML.
  */
 function appendMarkupToPage(markup) {
+  newHeightInPx = 200;
+  gridContainerElement.style.height = newHeightInPx + 'px';
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
   
@@ -210,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
       var markup = getItemMarkup(response.values);
       appendMarkupToPage(markup);
     });
-  alert(gridContainerElement.offsetHeight);
+  //alert(gridContainerElement.offsetHeight);
   
   window.demo = new Demo(document.getElementById('grid'));
 });
