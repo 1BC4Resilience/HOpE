@@ -30,7 +30,7 @@ function getMarkupFromData(dataForSingleItem) {
   var title = dataForSingleItem[0];
   
   //"Title","Location","Description","Tags","Link","Image"],["
- pageLocation.insertAdjacentHTML('beforeend','<span>' + title + '</span>');
+ document.body.innerHTML += '<span>' + title + '</span>';
   return [
     '<div class="js-item col-3@xs col-3@sm person-item" data-id="' + dataForSingleItem.id + '">',
     '<span>' + title + '</span>',
