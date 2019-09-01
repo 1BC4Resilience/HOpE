@@ -212,9 +212,10 @@ document.addEventListener('DOMContentLoaded', () => {
       var markup = getItemMarkup(response.values);
       appendMarkupToPage(markup);
     
-      newHeightInPx = 200;
-      gridContainerElement.style.height = newHeightInPx + 'px';
-  //alert(gridContainerElement.offsetHeight);
+       newHeightInPx = 200;
+       gridContainerElement.style.height = newHeightInPx + 'px';
+      //alert(gridContainerElement.offsetHeight);
+  });
   
   window.demo = new Demo(document.getElementById('grid'));
 });
