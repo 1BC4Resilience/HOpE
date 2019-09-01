@@ -9,7 +9,8 @@ fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX
   })
   .then(function (list_json) {
   
-      document.write(JSON.stringify(list_json));
+      //document.write(JSON.stringify(list_json));
+      document.write(list_json.values.length);
   
     });
 </script>
