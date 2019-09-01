@@ -212,11 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
       var markup = getItemMarkup(response.values);
       appendMarkupToPage(markup);
     
-      // Initialize Shuffle now that there are items.
-      shuffleInstance = new Shuffle(gridContainerElement, {
-        itemSelector: '.js-item',
-        sizer: '.my-sizer-element',
-    });
+      newHeightInPx = 200;
+      gridContainerElement.style.height = newHeightInPx + 'px';
   //alert(gridContainerElement.offsetHeight);
   
   window.demo = new Demo(document.getElementById('grid'));
