@@ -49,6 +49,11 @@
       var request = gapi.client.sheets.spreadsheets.values.get(params);
       request.then(function(response) {
         // TODO: Change code below to process the `response` object:
+        document.write('<div>Success!</div>');
+        
+        
+        
+        
         console.log(response.result);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
@@ -60,12 +65,6 @@
 
       var CLIENT_ID = '';  // TODO: Update placeholder with desired client ID.
 
-      // TODO: Authorize using one of the following scopes:
-      //   'https://www.googleapis.com/auth/drive'
-      //   'https://www.googleapis.com/auth/drive.file'
-      //   'https://www.googleapis.com/auth/drive.readonly'
-      //   'https://www.googleapis.com/auth/spreadsheets'
-      //   'https://www.googleapis.com/auth/spreadsheets.readonly'
       var SCOPE = '';
 
       gapi.client.init({
