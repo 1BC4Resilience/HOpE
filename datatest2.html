@@ -30,10 +30,10 @@ function getMarkupFromData(dataForSingleItem) {
   var title = dataForSingleItem[0];
   
   //"Title","Location","Description","Tags","Link","Image"],["
-
+ pageLocation.insertAdjacentHTML('beforeend','<span>' + title + '</span>');
   return [
     '<div class="js-item col-3@xs col-3@sm person-item" data-id="' + dataForSingleItem.id + '">',
-    '<span>' + name + '</span>',
+    '<span>' + title + '</span>',
     '</div>',
   ].join('');
 }
@@ -44,6 +44,7 @@ function getMarkupFromData(dataForSingleItem) {
  * @return {string}
  */
 function getItemMarkup(items) {
+  //items.foreach(getMarkupFromData)
   return items.reduce(function (str, item) {
     return str + getMarkupFromData(item);
   }, '');
