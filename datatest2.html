@@ -15,8 +15,9 @@ fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX
       //document.write(list_json.values.length);
   
     // Create and insert the markup.
-    var markup = getItemMarkup(response.values);
-    appendMarkupToPage(markup);
+    document.write(JSON.stringify(response.values));
+    //var markup = getItemMarkup(response.values);
+    //appendMarkupToPage(markup);
   
     });
   
