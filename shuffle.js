@@ -147,9 +147,6 @@ class Demo {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  window.demo = new Demo(document.getElementById('grid'));
-});
 
 fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:H?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
@@ -218,3 +215,8 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   gridContainerElement.insertAdjacentHTML('beforeend', markup);
 }
+  
+document.addEventListener('DOMContentLoaded', () => {
+  window.demo = new Demo(document.getElementById('grid'));
+});
+
