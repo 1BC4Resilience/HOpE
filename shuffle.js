@@ -162,27 +162,24 @@ function getMarkupFromData(dataForSingleItem) {
   var dateCreated = dataForSingleItem[6];
   var validated = dataForSingleItem[7];
   
-  //return [  
-  var newItem = 
-      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=\'["' + tags + ']\' '+
-      'data-date-created="' + dateCreated + '" '+
-      'data-title="' + title +'">'+
-      '<div class="picture-item__inner">'+
-      '  <div class="aspect aspect--16x9">'+
-      '    <div class="aspect__inner">'+
-      '      <img src="' + image + '" />'+
-      '    </div>'+
-      '  </div>'+
-      '  <div class="picture-item__details">'+
-      '    <figcaption class="picture-item__title"><a href="' + image + '" target="_blank" rel="noopener">' + title + '</a></figcaption>'+
-      '    <p class="picture-item__tags hidden@xs">' + tags + '</p>'+
-      '  </div>'+
-      ' </div>'+
-    '</figure>';
-  //].join('');
-  
-   Demo.shuffle.element.appendChild(newItem);
-  
+  return [  
+      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=\'["' + tags + ']\' ',
+      'data-date-created="' + dateCreated + '" ',
+      'data-title="' + title +'">',
+      '<div class="picture-item__inner">',
+      '  <div class="aspect aspect--16x9">',
+      '    <div class="aspect__inner">',
+      '      <img src="' + image + '" />',
+      '    </div>',
+      '  </div>',
+      '  <div class="picture-item__details">',
+      '    <figcaption class="picture-item__title"><a href="' + image + '" target="_blank" rel="noopener">' + title + '</a></figcaption>',
+      '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
+      '  </div>',
+      ' </div>',
+    '</figure>',
+  ].join('');
+    
 }
 /**
  * Convert an array of item objects to HTML markup.
@@ -201,7 +198,7 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   //newHeightInPx = 200;
   //gridContainerElement.style.height = newHeightInPx + 'px';
-  //gridContainerElement.insertAdjacentHTML('afterbegin', markup);
+  gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
  
 document.addEventListener('DOMContentLoaded', () => {
@@ -212,10 +209,10 @@ document.addEventListener('DOMContentLoaded', () => {
   .then(function (response) {
       // Create and insert the markup.
      var markup = getItemMarkup(response.values);
-      //appendMarkupToPage(markup);
+      appendMarkupToPage(markup);
     
-       //newHeightInPx = 200;
-       //gridContainerElement.style.height = newHeightInPx + 'px';
+       newHeightInPx = 200;
+       gridContainerElement.style.height = newHeightInPx + 'px';
       //alert(gridContainerElement.offsetHeight);
   });
   
