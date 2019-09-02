@@ -162,7 +162,8 @@ function getMarkupFromData(dataForSingleItem) {
   var dateCreated = dataForSingleItem[6];
   var validated = dataForSingleItem[7];
   
-  return [  
+  //return [  
+  var newItem = 
       '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=\'["' + tags + ']\' ',
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
@@ -177,8 +178,10 @@ function getMarkupFromData(dataForSingleItem) {
       '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
       '  </div>',
       ' </div>',
-    '</figure>',
-  ].join('');
+    '</figure>';
+  //].join('');
+  
+   this.shuffle.element.appendChild(newItem);
   
 }
 /**
@@ -188,9 +191,17 @@ function getMarkupFromData(dataForSingleItem) {
  */
 function getItemMarkup(items) {
   //items.foreach(getMarkupFromData)
-  return items.reduce(function (str, item) {
-    return str + getMarkupFromData(item);
-  }, '');
+  
+    items.forEach(function (item) {
+        getMarkupFromData(item);
+  }, this);
+  // Tell shuffle elements have been appended.
+  // It expects an array of elements as the parameter.
+  this.shuffle.add(elements);
+  
+  //return items.reduce(function (str, item) {
+  //  return str + getMarkupFromData(item);
+  //}, '');
 }
 /**
  * Append HTML markup to the main Shuffle element.
