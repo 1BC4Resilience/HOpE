@@ -16,6 +16,19 @@ class Demo {
     this.addSorting();
     this.addSearchFilter();
   }
+  
+  
+  fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:H?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
+  .then(function (response) {
+      return response.json();
+  })
+  .then(function (response) {
+      // Create and insert the markup.
+      var markup = getItemMarkup(response.values);
+      appendMarkupToPage(markup);
+    
+      //alert(gridContainerElement.offsetHeight);
+
 
   /**
    * Shuffle uses the CustomEvent constructor to dispatch events. You can listen
@@ -212,21 +225,7 @@ function appendMarkupToPage(markup) {
   //gridContainerElement.style.height = newHeightInPx + 'px';
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
-  
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:H?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
-  .then(function (response) {
-      return response.json();
-  })
-  .then(function (response) {
-      // Create and insert the markup.
-      var markup = getItemMarkup(response.values);
-      appendMarkupToPage(markup);
-    
-       newHeightInPx = 200;
-       gridContainerElement.style.height = newHeightInPx + 'px';
-      //alert(gridContainerElement.offsetHeight);
-  });
-  
+ 
+ 
   window.demo = new Demo(document.getElementById('grid'));
 });
