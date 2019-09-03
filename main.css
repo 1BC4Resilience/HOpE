@@ -112,14 +112,24 @@ $item-height: 220px;
   position: absolute;
   top: -5;
   display: none;
-  z-index: 100;
+  z-index: 1;
   align-items: baseline;
   justify-content: space-between;
   width: 100%;
   padding: 1em;
 }
 
+.picture-item__descriptionbox .back {
+    position: absolute; z-index: 2;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: white; opacity: 0.75;
+}
+
+body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=75); }
+
 .picture-item__description {
+  position: relative; 
+  z-index: 3;
   width: 100%;
   padding: 0 2em 1em 1em;
   margin: 0;
