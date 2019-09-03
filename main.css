@@ -96,7 +96,7 @@ $item-height: 220px;
   margin: 0;
 }
 
-.picture-item__inner:active + .picture-item__description {
+.picture-item__inner:hover + .picture-item__description {
     display: inline-block;
 }
 
