@@ -209,12 +209,14 @@ document.addEventListener('DOMContentLoaded', () => {
   .then(function (response) {
       // Create and insert the markup.
      var markup = getItemMarkup(response.values);
-      appendMarkupToPage(markup);
+     appendMarkupToPage(markup);
     
-       newHeightInPx = 200;
-       gridContainerElement.style.height = newHeightInPx + 'px';
+     window.demo = new Demo(document.getElementById('grid'));
+    
+     //newHeightInPx = 200;
+     //gridContainerElement.style.height = newHeightInPx + 'px';
       //alert(gridContainerElement.offsetHeight);
   });
   
-  window.demo = new Demo(document.getElementById('grid'));
+  //window.demo = new Demo(document.getElementById('grid'));
 });
