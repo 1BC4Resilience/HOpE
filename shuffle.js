@@ -163,7 +163,11 @@ function getMarkupFromData(dataForSingleItem) {
   var validated = dataForSingleItem[7];
   var tagsArray = tags.split(',');
   
-  alert(tags);
+  tagsArray.forEach(function (item, index) {
+    tagsArray[item] = '"' + tagsArray[item] + '"';
+  });
+  var tagsList = tagsArray.join();
+  alert(tagsList);
   
   return [  
       '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=\'["' + tags + '"]\' ',
