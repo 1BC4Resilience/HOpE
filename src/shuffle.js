@@ -2147,7 +2147,7 @@
     columnWidth: 0,
     // If your group is not json, and is comma delimeted, you could set delimiter
     // to ','.
-    delimiter: null,
+    delimiter: ',',  // previously null,
     // Useful for percentage based heights when they might not always be exactly
     // the same (in pixels).
     buffer: 0,
