@@ -89,16 +89,6 @@ $item-height: 220px;
   background: #ecf0f1;
 }
 
-.picture-item__description {
-  display: none;
-  width: 100%;
-  padding: 0 2em 1em 1em;
-  margin: 0;
-}
-
-.picture-item__inner:hover + .picture-item__description {
-    display: inline-block;
-}
 
 .picture-item__details {
   display: flex;
@@ -118,6 +108,25 @@ $item-height: 220px;
   text-align: right;
   margin: 0;
 }
+
+.picture-item__descriptionbox {
+  display: none;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em;
+}
+
+.picture-item__description {
+  width: 100%;
+  padding: 0 2em 1em 1em;
+  margin: 0;
+}
+
+.picture-item__details:hover + .picture-item__descriptionbox {
+    display: flex;
+}
+
 
 @media screen and (min-width: 768px) {
   .picture-item--overlay {
