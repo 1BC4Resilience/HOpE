@@ -206,7 +206,7 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   //newHeightInPx = 200;
   //gridContainerElement.style.height = newHeightInPx + 'px';
-  alert(markup);
+  //alert(markup);
 
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
