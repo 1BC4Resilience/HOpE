@@ -181,6 +181,7 @@ function getMarkupFromData(dataForSingleItem) {
       '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
       '  </div>',
       '  <div class="picture-item__descriptionbox">',
+      '    <div class="back"></div>',
       '    <p class="picture-item__description">' + description + '</p>',
       '  </div>',
       ' </div>',
