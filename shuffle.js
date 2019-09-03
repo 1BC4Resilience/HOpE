@@ -166,7 +166,7 @@ function getMarkupFromData(dataForSingleItem) {
   var tagsList = tagsArray.map(n => '"' + n + '"');
   
   return [  
-      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=\'[' + tagsList + ']\' ',
+      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=&amp;#39[' + tagsList + ']&amp;#39 ',
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
       '<div class="picture-item__inner">',
