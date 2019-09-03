@@ -164,10 +164,10 @@ function getMarkupFromData(dataForSingleItem) {
   var tagsArray = tags.split(',');
   var singleQuote = '&#39;';
   
-  var tagsList = tagsArray.map(n => '"' + n + '"');
+  var tagsList = tagsArray.map(n => "'" + n + "'");
     
   return [  
-      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=\'[' + tagsList + ']\' ',
+      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups="[' + tagsList + ']" ',
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
       '<div class="picture-item__inner">',
@@ -206,7 +206,7 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   //newHeightInPx = 200;
   //gridContainerElement.style.height = newHeightInPx + 'px';
-  //alert(markup);
+  alert(markup);
 
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
