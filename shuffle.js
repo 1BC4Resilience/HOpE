@@ -179,9 +179,9 @@ function getMarkupFromData(dataForSingleItem) {
       '  <div class="picture-item__details">',
       '    <figcaption class="picture-item__title"><a href="' + image + '" target="_blank" rel="noopener">' + title + '</a></figcaption>',
       '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
+      '  </div>',
       '  <div class="picture-item__descritionbox">',
       '    <p class="picture-item__description">' + description + '</p>',
-      '  </div>',
       '  </div>',
       ' </div>',
     '</figure>',
@@ -205,9 +205,9 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   //newHeightInPx = 200;
   //gridContainerElement.style.height = newHeightInPx + 'px';
-  alert(markup);
+  //alert(markup);
 
-  gridContainerElement.insertAdjacentHTML('afterbegin', markup);
+  gridContainerElement.insertAdjacentText('afterbegin', markup);
 }
  
 document.addEventListener('DOMContentLoaded', () => {
