@@ -162,11 +162,12 @@ function getMarkupFromData(dataForSingleItem) {
   var dateCreated = dataForSingleItem[6];
   var validated = dataForSingleItem[7];
   var tagsArray = tags.split(',');
+  var singleQuote = '&#39;';
   
   var tagsList = tagsArray.map(n => '"' + n + '"');
   
   return [  
-      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=&#39;[' + tagsList + ']&#39; ',
+      '<figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups=' + singleQuote + '[' + tagsList + ']' + singleQuote + ' ',
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
       '<div class="picture-item__inner">',
