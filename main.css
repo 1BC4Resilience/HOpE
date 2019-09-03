@@ -89,15 +89,15 @@ $item-height: 220px;
   background: #ecf0f1;
 }
 
-.picture-item__descriptiontext {
+.picture-item__description {
   display: none;
-  flex-shrink: 1;
-  text-align: left;
+  width: 100%;
+  padding: 0 2em 1em 1em;
   margin: 0;
 }
 
-.picture-item__inner:active + .picture-item__descriptiontext {
-    display: inline;
+.picture-item__inner:active + .picture-item__description {
+    display: inline-block;
 }
 
 .picture-item__details {
@@ -106,12 +106,6 @@ $item-height: 220px;
   justify-content: space-between;
   width: 100%;
   padding: 1em;
-}
-
-.picture-item__description {
-  width: 100%;
-  padding: 0 2em 1em 1em;
-  margin: 0;
 }
 
 .picture-item__title {
