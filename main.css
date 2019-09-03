@@ -89,6 +89,17 @@ $item-height: 220px;
   background: #ecf0f1;
 }
 
+.picture-item__descriptiontext {
+  display: none;
+  flex-shrink: 1;
+  text-align: left;
+  margin: 0;
+}
+
+.picture-item__inner:active + .picture-item__descriptiontext {
+    display: inline;
+}
+
 .picture-item__details {
   display: flex;
   align-items: baseline;
