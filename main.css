@@ -89,7 +89,6 @@ $item-height: 220px;
   background: #ecf0f1;
 }
 
-
 .picture-item__details {
   display: flex;
   align-items: baseline;
@@ -111,6 +110,7 @@ $item-height: 220px;
 
 .picture-item__descriptionbox {
   display: none;
+  z-index: 100;
   align-items: baseline;
   justify-content: space-between;
   width: 100%;
