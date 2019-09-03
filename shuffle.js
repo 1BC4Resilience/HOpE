@@ -162,11 +162,12 @@ function getMarkupFromData(dataForSingleItem) {
   var dateCreated = dataForSingleItem[6];
   var validated = dataForSingleItem[7];
   var tagsArray = tags.split(',');
-  var tagsList;
   
-  tagsArray.forEach(function (item, index) {
-    tagsList[item] = '"' + tagsArray[item] + '"';
-  });
+  var tagsList = tagsArray.map(n => '"' + n + '"');
+  
+  //tagsArray.forEach(function (item, index) {
+  //  tagsList[item] = '"' + tagsArray[item] + '"';
+  //});
   //var tagsList = tagsArray.join();
   alert(tagsList);
   
