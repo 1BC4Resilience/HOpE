@@ -109,6 +109,8 @@ $item-height: 220px;
 }
 
 .picture-item__descriptionbox {
+  position: absolute;
+  top: -5;
   display: none;
   z-index: 100;
   align-items: baseline;
