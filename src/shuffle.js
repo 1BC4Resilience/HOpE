@@ -1119,7 +1119,7 @@
         var attr = element.getAttribute('data-' + Shuffle.FILTER_ATTRIBUTE_KEY);
         // IOD added to fix issue with quote order that was happening with insertAdjacentHTML call in top level shuttle.js file
         //alert(attr);
-        attr = attr.replace(/'|'['|']'/g, '');
+        attr = attr.replace(/'/g, '').replace('['/g, '').replace(']'/g, '')replace(', '/g, ',');
         //alert(attr);
 
         var keys = this.options.delimiter ? attr.split(this.options.delimiter) : JSON.parse(attr);
