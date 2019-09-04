@@ -1118,15 +1118,15 @@
 
         var attr = element.getAttribute('data-' + Shuffle.FILTER_ATTRIBUTE_KEY);
         // IOD added to fix issue with quote order that was happening with insertAdjacentHTML call in top level shuttle.js file
-        //alert(attr);
         attr = attr.replace(/'/g, '').slice(1,-1).replace(', ', ',').toLowerCase();
-        //alert(attr);
 
         var keys = this.options.delimiter ? attr.split(this.options.delimiter) : JSON.parse(attr);
-        alert('keys = ' + keys + 'category = ' + category + 'result = ' + keys.toString().includes(category));
+        //alert('keys = ' + keys + 'category = ' + category + 'result = ' + keys.toString().includes(category));
         
         function testCategory(category) {
-          return keys.includes(category);
+          // added toString() to enable more flexible matching of substrings
+          return keys.toString()includes(category);
+          //return keys.includes(category);
         }
 
         if (Array.isArray(category)) {
@@ -1137,7 +1137,9 @@
           return category.every(testCategory);
         }
 
-        return keys.includes(category);
+        // added toString() to enable more flexible matching of substrings
+        return keys.toString().includes(category);
+        //return keys.includes(category);
       }
       /**
        * Toggles the visible and hidden class names.
