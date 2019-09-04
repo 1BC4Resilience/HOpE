@@ -118,7 +118,7 @@ $item-height: 220px;
 }
 
 .picture-item__descriptionbox {
-  position: relative;
+  position: absolute;
   top: -5;
   display: none;
   visibility: hidden;
