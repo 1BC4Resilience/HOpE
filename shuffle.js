@@ -1,5 +1,6 @@
 var Shuffle = window.Shuffle;
 var gridContainerElement = document.getElementById('grid');
+var entryNumber = 0;
 
 class Demo {
   constructor(element) {
@@ -173,13 +174,15 @@ function getMarkupFromData(dataForSingleItem) {
   var singleQuote = '&#39;';
   
   var tagsList = tagsArray.map(n => "'" + n + "'");
+  
+  entryNumber++;
     
   return [  
       '<figure class="col-3@xs col-4@sm col-4@md picture-item" data-groups="[' + tagsList + ']" ',
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
       '<div class="picture-item__inner">',
-      '  <div class="aspect aspect--16x9">',
+      '  <div class="aspect aspect--16x9" onClick="toggledisplay("picture-item_descriptionbox-' + entryNumber + '");>',
       '    <div class="aspect__inner">',
       '      <img src="' + image + '" />',
       '    </div>',
@@ -189,7 +192,7 @@ function getMarkupFromData(dataForSingleItem) {
       '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
       '  </div>',
       ' </div>',
-      '<div class="picture-item__descriptionbox">',
+      '<div id="picture-item_descriptionbox-' + entryNumber + '" class="picture-item__descriptionbox">',
       '  <div class="back"></div>',
       '  <p class="picture-item__description">' + description + '</p>',
       '  <p class="picture-item__location">' + location + '</p>',
@@ -221,6 +224,17 @@ function appendMarkupToPage(markup) {
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
  
+/**
+ * Enable click on entry to toggle additional description elements.
+ * 
+ */
+function toggledisplay(elementID)
+{
+    (function(style) {
+        style.display = style.display === 'none' ? '' : 'none';
+    })(document.getElementById(elementID).style);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:I?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
