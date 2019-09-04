@@ -1125,7 +1125,7 @@
         
         function testCategory(category) {
           // added toString() to enable more flexible matching of substrings
-          return keys.toString()includes(category);
+          return keys.toString().includes(category);
           //return keys.includes(category);
         }
 
