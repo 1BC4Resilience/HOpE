@@ -143,7 +143,11 @@ class Demo {
       const titleText = titleElement.textContent.toLowerCase().trim();
       const descriptionElement = element.querySelector('.picture-item__description');
       const descriptionText = descriptionElement.textContent.toLowerCase().trim();
-      const combinedText = titleText + descriptionText;
+      const locationElement = element.querySelector('.picture-item__location');
+      const locationText = descriptionElement.textContent.toLowerCase().trim();
+      const contactElement = element.querySelector('.picture-item__contact');
+      const contactText = descriptionElement.textContent.toLowerCase().trim();
+      const combinedText = titleText + descriptionText + locationText + contactText;
       return combinedText.indexOf(searchText) !== -1;
     });
   }
@@ -160,10 +164,11 @@ function getMarkupFromData(dataForSingleItem) {
   var location = dataForSingleItem[1];
   var description = dataForSingleItem[2];
   var tags = dataForSingleItem[3];
-  var link = dataForSingleItem[4];
-  var image = dataForSingleItem[5];
-  var dateCreated = dataForSingleItem[6];
-  var validated = dataForSingleItem[7];
+  var contact = dataForSingleItem[4];
+  var link = dataForSingleItem[5];
+  var image = dataForSingleItem[6];
+  var dateCreated = dataForSingleItem[7];
+  var validated = dataForSingleItem[8];
   var tagsArray = tags.split(',');
   var singleQuote = '&#39;';
   
@@ -187,6 +192,8 @@ function getMarkupFromData(dataForSingleItem) {
       '<div class="picture-item__descriptionbox">',
       '  <div class="back"></div>',
       '  <p class="picture-item__description">' + description + '</p>',
+      '  <p class="picture-item__location">' + location + '</p>',
+      '  <p class="picture-item__contact">' + contact + '</p>',
       '</div>',
     '</figure>',
   ].join('');
@@ -215,7 +222,7 @@ function appendMarkupToPage(markup) {
 }
  
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:H?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
+  fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:I?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
       return response.json();
   })
