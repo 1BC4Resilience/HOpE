@@ -151,10 +151,12 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=75)
       backdrop-filter: blur(7px);
       color: white;
       overflow: hidden;
+      font-size: 0.875em;
     }
 
     .picture-item__description {
       display: none;
+      font-size: 0.875em;
     }
     
     a {
