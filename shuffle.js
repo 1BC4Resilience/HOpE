@@ -178,7 +178,7 @@ function getMarkupFromData(dataForSingleItem) {
   entryNumber++;
     
   if (validated !== 'Yes') {
-    return();
+    return null;
   }
     else {
       return [  
