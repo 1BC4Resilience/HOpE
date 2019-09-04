@@ -158,7 +158,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
     .picture-item__description {
       display: none;
-      font-size: 0.875em;
+      font-size: 0.8em;
     }
     
     a {
@@ -176,7 +176,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
   .picture-item__details,
   .picture-item__description {
-    font-size: 0.875em;
+    font-size: 0.8em;
     padding: 0.625em;
   }
 
