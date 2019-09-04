@@ -131,8 +131,9 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=75)
   position: relative; 
   z-index: 3;
   width: 100%;
-  padding: 0 2em 1em 1em;
+  padding: 0 2em 1em 0;
   margin: 0;
+  font-size: 11px;
 }
 
 .picture-item__inner:hover + .picture-item__descriptionbox {
