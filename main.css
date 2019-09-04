@@ -118,7 +118,7 @@ $item-height: 220px;
   align-items: baseline;
   justify-content: space-between;
   width: 100%;
-  padding: 1em;
+  padding: 0.4em;
 }
 
 .picture-item__descriptionbox .back {
