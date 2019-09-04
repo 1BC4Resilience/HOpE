@@ -117,9 +117,10 @@ $item-height: 220px;
 }
 
 .picture-item__descriptionbox {
-  position: absolute;
+  position: relative;
   top: -5;
   display: none;
+  visibility: hidden;
   z-index: 1;
   align-items: baseline;
   justify-content: space-between;
@@ -144,9 +145,14 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   font-size: 0.875em;
 }
 
-.picture-item__inner:hover + .picture-item__descriptionbox {
+.picture-item__inner:active + .picture-item__descriptionbox {
     display: flex;
+    visibility: visible;
 }
+
+.picture-item__descriptionbox:hover {
+		visibility: visible;
+	}
 
 @media screen and (min-width: 1000px) {
   .picture-item--overlay {
