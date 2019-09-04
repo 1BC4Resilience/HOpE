@@ -71,7 +71,6 @@ $item-height: 220px;
 .picture-item {
   height: 220px;
   margin-top: $picture-gutter;
-  text-align: center;
 
   img {
     display: block;
@@ -489,6 +488,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   right: 0;
   bottom: 0;
   left: 0;
+  text-align: center;
 }
 
 .aspect--16x9 {
