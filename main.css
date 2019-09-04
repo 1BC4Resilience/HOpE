@@ -156,7 +156,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
 .picture-item__contact {
   position: relative; 
-  display: block;
+  display: inline-block;
   z-index: 3;
   width: 100%;
   font-size: 0.75em;
