@@ -180,7 +180,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
   .picture-item__description {
     padding-right: 0.875em;
-    padding-bottom: 1.25em;
+    //padding-bottom: 1.25em;
   }
 
   .picture-item--h2 {
