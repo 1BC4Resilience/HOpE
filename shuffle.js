@@ -141,7 +141,10 @@ class Demo {
       }
       const titleElement = element.querySelector('.picture-item__title');
       const titleText = titleElement.textContent.toLowerCase().trim();
-      return titleText.indexOf(searchText) !== -1;
+      const descriptionElement = element.querySelector('.picture-item__description');
+      const descriptionText = descriptionElement.textContent.toLowerCase().trim();
+      const combinedText = titleText + descriptionText,
+      return combinedText.indexOf(searchText) !== -1;
     });
   }
 }
