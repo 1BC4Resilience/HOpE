@@ -114,6 +114,7 @@ $item-height: 220px;
   flex-shrink: 1;
   text-align: right;
   margin: 0;
+  font-size: 0.675em;
 }
 
 .picture-item__descriptionbox {
