@@ -140,7 +140,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .picture-item__description {
   position: relative; 
   z-index: 3;
-  width: 100%;
+  //width: 100%;
   padding: 0 1em 0.3em 0;
   margin: 0;
   font-size: 0.875em;
@@ -150,7 +150,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   position: relative; 
   display: none;
   z-index: 3;
-  width: 100%;
+  //width: 100%;
   font-size: 0.75em;
 }
 
@@ -158,7 +158,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   position: relative; 
   //display: inline-block;
   z-index: 3;
-  width: 100%;
+  //width: 100%;
   font-size: 0.75em;
   clear:both;
 }
