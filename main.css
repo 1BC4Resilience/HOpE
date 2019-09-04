@@ -145,6 +145,22 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   font-size: 0.875em;
 }
 
+.picture-item__location {
+  position: relative; 
+  display: none;
+  z-index: 3;
+  width: 100%;
+  font-size: 0.75em;
+}
+
+.picture-item__contact {
+  position: relative; 
+  display: none;
+  z-index: 3;
+  width: 100%;
+  font-size: 0.75em;
+}
+
 .picture-item__inner:active + .picture-item__descriptionbox {
     display: flex;
 }
