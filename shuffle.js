@@ -231,7 +231,7 @@ function appendMarkupToPage(markup) {
 function toggledisplay(elementID)
 {
     (function(style) {
-        style.display = style.display === 'none' ? '' : 'none';
+        style.display = style.display === 'none' ? 'flex' : 'none';
     })(document.getElementById(elementID).style);
 }
 
