@@ -182,7 +182,7 @@ function getMarkupFromData(dataForSingleItem) {
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
       '<div class="picture-item__inner">',
-      '  <div class="aspect aspect--16x9" onClick="toggledisplay("picture-item_descriptionbox-' + entryNumber + '");>',
+      '  <div class="aspect aspect--16x9" onClick="toggledisplay("picture-item_descriptionbox-' + entryNumber + '")">',
       '    <div class="aspect__inner">',
       '      <img src="' + image + '" />',
       '    </div>',
