@@ -133,7 +133,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=75)
   width: 100%;
   padding: 0 2em 1em 0;
   margin: 0;
-  font-size: 11px;
+  font-size: 0.875em;
 }
 
 .picture-item__inner:active + .picture-item__descriptionbox {
