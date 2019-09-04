@@ -1120,10 +1120,11 @@
         // IOD added to fix issue with quote order that was happening with insertAdjacentHTML call in top level shuttle.js file
         //alert(attr);
         attr = attr.replace(/'/g, '"');
-        alert(attr);
+        //alert(attr);
 
         var keys = this.options.delimiter ? attr.split(this.options.delimiter) : JSON.parse(attr);
-
+        alert(keys);
+        
         function testCategory(category) {
           return keys.includes(category);
         }
