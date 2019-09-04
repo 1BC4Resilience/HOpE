@@ -161,9 +161,9 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   font-size: 0.75em;
 }
 
-.picture-item__inner:active + .picture-item__descriptionbox {
-    display: flex;
-}
+//.picture-item__inner:active + .picture-item__descriptionbox {
+//    display: flex;
+//}
 
 @media screen and (min-width: 1000px) {
   .picture-item--overlay {
