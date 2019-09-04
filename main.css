@@ -142,6 +142,18 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
     display: flex;
 }
 
+@media screen and (min-width: 768px) {
+  .picture-item--overlay {
+    .picture-item__details {
+      font-size: 0.8em;
+    }
+
+    .picture-item__description {
+      display: none;
+      font-size: 0.8em;
+    }
+  }
+}
 
 @media screen and (min-width: 768px) {
   .picture-item--overlay {
@@ -153,12 +165,12 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
       backdrop-filter: blur(7px);
       color: white;
       overflow: hidden;
-      font-size: 0.8em;
+      font-size: 0.7em;
     }
 
     .picture-item__description {
       display: none;
-      font-size: 0.8em;
+      font-size: 0.7em;
     }
     
     a {
