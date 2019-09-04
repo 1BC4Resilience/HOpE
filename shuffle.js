@@ -177,7 +177,11 @@ function getMarkupFromData(dataForSingleItem) {
   
   entryNumber++;
     
-  (validated !== 'Yes') ? return [''] : return [  
+  if (validated !== 'Yes') {
+    return();
+  }
+    else {
+      return [  
       '<figure class="col-3@xs col-4@sm col-4@md picture-item" data-groups="[' + tagsList + ']" ',
       'data-date-created="' + dateCreated + '" ',
       'data-title="' + title +'">',
@@ -200,7 +204,7 @@ function getMarkupFromData(dataForSingleItem) {
       '</div>',
     '</figure>',
   ].join('');
-    
+    }
 }
 /**
  * Convert an array of item objects to HTML markup.
