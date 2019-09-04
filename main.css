@@ -71,6 +71,7 @@ $item-height: 220px;
 .picture-item {
   height: 220px;
   margin-top: $picture-gutter;
+  text-align: center;
 
   img {
     display: block;
