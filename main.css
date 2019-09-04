@@ -231,7 +231,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .filter-label {
   display: block;
   padding: 0;
-  margin-top: 0;
+  margin-top: 4px;
   margin-bottom: 4px;
   color: #95a5a6;
 }
