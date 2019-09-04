@@ -143,7 +143,7 @@ class Demo {
       const titleText = titleElement.textContent.toLowerCase().trim();
       const descriptionElement = element.querySelector('.picture-item__description');
       const descriptionText = descriptionElement.textContent.toLowerCase().trim();
-      const combinedText = titleText + descriptionText,
+      const combinedText = titleText + descriptionText;
       return combinedText.indexOf(searchText) !== -1;
     });
   }
