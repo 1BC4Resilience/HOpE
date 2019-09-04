@@ -199,8 +199,8 @@ function getMarkupFromData(dataForSingleItem) {
       '<div id="picture-item_descriptionbox-' + entryNumber + '" class="picture-item__descriptionbox" style="display: none;" onClick="toggledisplay(\'picture-item_descriptionbox-' + entryNumber + '\')">',
       '  <div class="back"></div>',
       '  <p class="picture-item__description">' + description + '</p>',
-      '  <p class="picture-item__location">' + location + '</p>',
-      '  <p class="picture-item__contact">' + contact + '</p>',
+      '  <p class="picture-item__location">Location: ' + location + '</p>',
+      '  <p class="picture-item__contact">Contact: ' + contact + '</p>',
       '</div>',
     '</figure>',
   ].join('');
