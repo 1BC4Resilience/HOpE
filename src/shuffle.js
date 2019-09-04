@@ -1123,7 +1123,7 @@
         //alert(attr);
 
         var keys = this.options.delimiter ? attr.split(this.options.delimiter) : JSON.parse(attr);
-        alert('keys = ' + keys + 'category = ' + category + 'result = ' + keys.includes(category));
+        alert('keys = ' + keys + 'category = ' + category + 'result = ' + keys.stringify.includes(category));
         
         function testCategory(category) {
           return keys.includes(category);
