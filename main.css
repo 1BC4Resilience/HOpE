@@ -161,7 +161,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   z-index: 3;
   width: 100%;
   font-size: 0.75em;
-  clear:both;
+  clear: both;
 }
 
 //.picture-item__inner:active + .picture-item__descriptionbox {
