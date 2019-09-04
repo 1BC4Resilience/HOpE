@@ -189,11 +189,11 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   .picture-item__details,
   .picture-item__description {
     font-size: 0.8em;
-    padding: 0.625em;
+    padding: 0.4em;
   }
 
   .picture-item__description {
-    padding-right: 0.875em;
+    //padding-right: 0.875em;
     //padding-bottom: 1.25em;
   }
 
