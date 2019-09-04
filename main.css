@@ -19,8 +19,8 @@ body {
 figure {
   margin: 0;
   //padding: 0;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 img {
@@ -518,8 +518,8 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   position: relative;
   box-sizing: border-box;
   min-height: 1px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .col-1\@xs,
