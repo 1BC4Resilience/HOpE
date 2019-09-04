@@ -177,7 +177,7 @@ function getMarkupFromData(dataForSingleItem) {
       '    </div>',
       '  </div>',
       '  <div class="picture-item__details">',
-      '    <figcaption class="picture-item__title"><a href="' + image + '" target="_blank" rel="noopener">' + title + '</a></figcaption>',
+      '    <figcaption class="picture-item__title"><a href="' + link + '" target="_blank" rel="noopener">' + title + '</a></figcaption>',
       '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
       '  </div>',
       ' </div>',
