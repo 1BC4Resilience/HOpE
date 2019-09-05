@@ -222,7 +222,7 @@ function getItemMarkup(items) {
  */
 function appendMarkupToPage(markup) {
   var addNewOpportunities = [
-      '<figure class="col-3@xs col-4@sm col-4@md picture-item shuffle-item shuffle-item--visible" data-groups="[\'all\']" data-date-created="2025-09-03" data-title="Add your own new opportunity here!">',
+      '<figure class="col-3@xs col-4@sm col-4@md picture-item shuffle-item shuffle-item--visible" data-groups="[\'all\']" data-date-created="2025-08-27" data-title="Add your own new opportunity here!">',
       ' <div class="picture-item__inner" style="background: #d18479;">  <div class="aspect aspect--16x9" onclick="javascript:location.href=\'https://docs.google.com/forms/d/e/1FAIpQLSenmOfUkMvHnYGsMQaDv0uqz9RLcIQO8o4KHkc1EXIZ04pVWQ/viewform\'">',    
       ' <div class="aspect__inner">      <img src="./img/icon-heads.png"> ',   
       '  </div> ', 
