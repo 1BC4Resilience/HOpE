@@ -209,13 +209,13 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
   .picture-item__details,
   .picture-item__description {
-    font-size: 0.675em;
+    font-size: 0.725em;
     padding: 0.4em;
   }
 
   .picture-item__location,
   .picture-item__contact {
-    font-size: 0.675em;
+    font-size: 0.725em;
     padding: 0.4em;
   }
   
