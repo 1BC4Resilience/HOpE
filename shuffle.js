@@ -143,11 +143,11 @@ class Demo {
       const titleElement = element.querySelector('.picture-item__title');
       const titleText = titleElement.textContent.toLowerCase().trim();
       const descriptionElement = element.querySelector('.picture-item__description');
-      const descriptionText = descriptionElement.textContent.toLowerCase().trim();
+      const descriptionText = descriptionElement ? descriptionElement.textContent.toLowerCase().trim() : null ;
       const locationElement = element.querySelector('.picture-item__location');
-      const locationText = descriptionElement.textContent.toLowerCase().trim();
+      const locationText = locationElement ? locationElement.textContent.toLowerCase().trim(): null;
       const contactElement = element.querySelector('.picture-item__contact');
-      const contactText = descriptionElement.textContent.toLowerCase().trim();
+      const contactText = contactElement ? contactElement.textContent.toLowerCase().trim(): null ;
       const combinedText = titleText + descriptionText + locationText + contactText;
       return combinedText.indexOf(searchText) !== -1;
     });
