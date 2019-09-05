@@ -233,7 +233,7 @@ function appendMarkupToPage(markup) {
     '</figure>',
         ].join('\n');
   
-  markup = addNewOppportunities.toString() + markup;
+  markup = addNewOpportunities.toString() + markup;
 
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
