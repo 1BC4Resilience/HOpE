@@ -225,7 +225,7 @@ function appendMarkupToPage(markup) {
   //gridContainerElement.style.height = newHeightInPx + 'px';
   //alert(markup);
 
-  gridContainerElement.insertAdjacentHTML('afterbegin', markup);
+  gridContainerElement.insertAdjacentHTML('beforeend', markup);
 }
  
 /**
