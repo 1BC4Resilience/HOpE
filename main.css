@@ -122,6 +122,7 @@ $item-height: 220px;
   position: absolute;
   top: -5;
   display: none;
+  float: left;
   z-index: 1;
   align-items: baseline;
   justify-content: space-between;
@@ -140,6 +141,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .picture-item__description {
   position: relative; 
   z-index: 3;
+  display: inline;
   padding: 0 1em 0.3em 0;
   margin: 0;
   font-size: 0.875em;
@@ -155,6 +157,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .picture-item__contact {
   position: relative; 
   z-index: 3;
+  display: inline;
   font-size: 0.75em;
 }
 
