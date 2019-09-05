@@ -140,8 +140,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .picture-item__description {
   position: relative; 
   z-index: 3;
-  display: block;
-  width: 100%;
   padding: 0 1em 0.3em 0;
   margin: 0;
   font-size: 0.875em;
@@ -157,12 +155,8 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
 .picture-item__contact {
   position: relative; 
-  display: block;
   z-index: 3;
-  width: 100%;
   font-size: 0.75em;
-  //margin-left: -100%;
-  clear: both;
 }
 
 //.picture-item__inner:active + .picture-item__descriptionbox {
@@ -215,15 +209,16 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
   .picture-item__details,
   .picture-item__description {
-    font-size: 0.8em;
+    font-size: 0.675em;
     padding: 0.4em;
   }
 
-  .picture-item__description {
-    //padding-right: 0.875em;
-    //padding-bottom: 1.25em;
+  .picture-item__location,
+  .picture-item__contact {
+    font-size: 0.675em;
+    padding: 0.4em;
   }
-
+  
   .picture-item--h2 {
     height: auto;
   }
