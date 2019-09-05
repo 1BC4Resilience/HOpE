@@ -198,12 +198,12 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 @media screen and (min-width: 1000px) {
   .picture-item--overlay {
     .picture-item__details {
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
 
     .picture-item__description {
       display: none;
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
   }
 }
