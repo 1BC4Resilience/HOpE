@@ -148,7 +148,9 @@ class Demo {
       const locationText = locationElement ? locationElement.textContent.toLowerCase().trim(): null;
       const contactElement = element.querySelector('.picture-item__contact');
       const contactText = contactElement ? contactElement.textContent.toLowerCase().trim(): null ;
-      const combinedText = titleText + descriptionText + locationText + contactText;
+      const tagsElement = element.querySelector('.picture-item__tags');
+      const tagsText = tagsElement ? tagsElement.textContent.toLowerCase().trim(): null ;
+      const combinedText = titleText + descriptionText + locationText + contactText + tagsText;
       return combinedText.indexOf(searchText) !== -1;
     });
   }
