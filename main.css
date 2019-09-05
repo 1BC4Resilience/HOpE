@@ -161,7 +161,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   font-size: 0.8em;
 }
 
-a.share-new {
+.share-new {
  display:inline-block;
  padding:0.3em 1.2em;
  margin:0 0.3em 0.3em 0;
@@ -183,12 +183,12 @@ a.share-new {
   transform: translate(-50%, -50%);
 }
 
-a.share-new:hover {
+.share-new:hover {
  background-color:#4095c6;
 }
 
 @media all and (max-width:30em){
- a.share-new {
+ .share-new {
   display:block;
   margin:0.2em auto;
  }
