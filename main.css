@@ -6,7 +6,7 @@
 }
 
 html {
-  line-height: 0.9; /* 2 */
+  line-height: 1.1; /* 2 */
   //-ms-text-size-adjust: 100%; /* 3 */
   //-webkit-text-size-adjust: 100%; /* 3 */
 }
@@ -141,7 +141,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .picture-item__description {
   position: relative; 
   z-index: 3;
-  display: inline;
+  display: inline !important;
   padding: 0 1em 0.3em 0;
   margin: 0;
   font-size: 0.875em;
@@ -157,7 +157,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 .picture-item__contact {
   position: relative; 
   z-index: 3;
-  display: inline;
+  display: inline !important;
   font-size: 0.75em;
 }
 
