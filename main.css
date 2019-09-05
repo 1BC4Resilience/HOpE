@@ -144,21 +144,21 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   display: inline !important;
   padding: 0 1em 0.3em 0;
   margin: 0;
-  font-size: 0.875em;
+  font-size: 0.8em;
 }
 
 .picture-item__location {
   position: relative; 
   display: none;
   z-index: 3;
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
 .picture-item__contact {
   position: relative; 
   z-index: 3;
   display: inline !important;
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
 @media screen and (min-width: 1000px) {
