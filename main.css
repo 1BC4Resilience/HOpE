@@ -37,6 +37,16 @@ body {
     //display: none;
 }
 
+.intro-tour-header>.tour-header-content-container h3 {
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.intro-tour-header>.tour-header-content-container h5 {
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
 .intro-tour-header>.tour-header-content-container>.tour-header-background {
     position: absolute;
     background: transparent url(https://home.dynamics.com/resources/images/home/tourheader/background.png) 0 100% no-repeat;
