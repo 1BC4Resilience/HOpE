@@ -63,6 +63,8 @@ body {
     width: 24px;
     height: 24px;
     z-index: 2;
+    padding: 0;
+    border: none;  
 }
 
 .intro-tour-header>.tour-header-content-container>.dismiss-button:hover {
@@ -90,6 +92,8 @@ body {
     left: calc(50% - 16px);
     top: calc(100% - 16px);
     background: none;
+    padding: 0;
+    border: none;
 }
 
 .intro-tour-header>button>svg {
