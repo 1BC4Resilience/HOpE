@@ -30,20 +30,20 @@
 </div>
   
 <div class="intro-tour-header">
-  <div id="into-content" class="tour-header-content-container">
+  <div id="intro-content" class="tour-header-content-container">
     <div class="tour-header-background">
     </div>
     <div class="tour-header-content">
       <h2>Introduction</h2>
       <h4>THe Humanitarian Opportunity Explorer ...</h4>
     </div>
-    <button aria-label="Close" class="dismiss-button" onClick="intro-content">
+    <button aria-label="Close" class="dismiss-button" onClick="toggledisplay('intro-content')">
       <svg class="intro-glyph" aria-hidden="true" focusable="false" viewBox="0 0 16 16">
         <path d="M8.73,8,15,14.27l-.73.73L8,8.73,1.73,15,1,14.27,7.27,8,1,1.73,1.73,1,8,7.27,14.27,1l.73.73Z"></path>
       </svg>
     </button>
   </div>
-  <button aria-label="Hide welcome banner">
+  <button aria-label="Hide welcome banner" onClick="toggledisplay('intro-content')">
     <svg class="intro-glyph" aria-hidden="true" focusable="false" viewBox="0 0 16 16">
       <g>
         <circle cx="8" cy="8" r="7.1" class="background"></circle>
