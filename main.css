@@ -26,7 +26,6 @@ body {
     background-color: #17244f;
     background: linear-gradient(90deg,#17244f 0,#05b5c1);
     position: relative;
-    display: none;
 }
 
 .intro-tour-header>.tour-header-content-container {
@@ -35,6 +34,7 @@ body {
     transition: max-height .2s linear,min-height .2s linear,visibility .2s;
     position: relative;
     overflow: hidden;
+    display: none;
 }
 
 .intro-tour-header>.tour-header-content-container>.tour-header-background {
