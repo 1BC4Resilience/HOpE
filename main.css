@@ -39,11 +39,11 @@ body {
 
 .intro-tour-header>.tour-header-content-container h3 {
     margin-top: 8px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .intro-tour-header>.tour-header-content-container p {
-    margin-top: 6px;
+    margin-top: 8px;
     margin-bottom: 4px;
     line-height: 1.2em;
 }
