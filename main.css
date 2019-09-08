@@ -38,7 +38,7 @@ body {
 
 .intro-tour-header>.tour-header-content-container>.tour-header-background {
     position: absolute;
-    background: transparent url(/resources/images/home/tourheader/background.png) 0 100% no-repeat;
+    background: transparent url(https://home.dynamics.com/resources/images/home/tourheader/background.png) 0 100% no-repeat;
     top: 0;
     bottom: 0;
     left: 0;
