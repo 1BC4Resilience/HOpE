@@ -29,8 +29,8 @@ body {
 }
 
 .intro-tour-header>.tour-header-content-container {
-    min-height: 280px;
-    max-height: 500px;
+    min-height: 180px;
+    max-height: 300px;
     transition: max-height .2s linear,min-height .2s linear,visibility .2s;
     position: relative;
     overflow: hidden;
