@@ -82,6 +82,10 @@ body {
     height: 32px;
 }
 
+. intro-tour-tour-header>button>svg .background {
+    fill: #f3f3f3;
+}
+
 /* end of Intro section */
 
 figure {
