@@ -240,6 +240,10 @@ $item-height: 220px;
 .picture-item__title {
   flex-shrink: 1;
   margin-right: 4px;
+  
+  a {
+    font-weight: bold;
+  }
 }
 
 .picture-item__tags {
@@ -318,9 +322,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
  background-color:#4095c6;
 }
 
-.figure>div.picture-item__inner>div.picture-item__details>figcaption a {
-  font-style: bold:
-}
 
 @media all and (max-width:30em){
  .share-new {
