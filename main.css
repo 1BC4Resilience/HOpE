@@ -70,7 +70,7 @@ body {
 .intro-tour-header>.tour-header-content-container>.dismiss-button:hover {
     background-color:hsla(0,0%,100%,.2)
 }
-.intro-tour-header>.tour-header-content-container>.dismiss-button:active, .intro-tour-header>.tour-header-content-container>.dismiss-button:focus {
+.intro-tour-header>.tour-header-content-container>.dismiss-button:active,.intro-tour-header>.tour-header-content-container>.dismiss-button:focus {
     background-color:hsla(0,0%,100%,.4)
 }
 
@@ -106,15 +106,15 @@ body {
     fill: #f3f3f3;
 }
 
-.intro-tour-header>button:focus,.d365shell-c-tour-header>button:hover {
+.intro-tour-header>button:focus,.intro-tour-header>button:hover {
     outline:none
 }
 
-.intro-tour-header>button:focus>svg,.d365shell-c-tour-header>button:hover>svg {
+.intro-tour-header>button:focus>svg,.intro-tour-header>button:hover>svg {
     color:#f3f3f3
 }
 
-.intro-tour-header>button:focus>svg .background,.d365shell-c-tour-header>button:hover>svg .background {
+.intro-tour-header>button:focus>svg .background,.intro-tour-header>button:hover>svg .background {
     fill:#00838c
 }
 
