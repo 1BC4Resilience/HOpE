@@ -26,6 +26,7 @@ body {
     background-color: #17244f;
     background: linear-gradient(90deg,#17244f 0,#05b5c1);
     position: relative;
+    padding-bottom: 0.8em;
 }
 
 .intro-tour-header>.tour-header-content-container {
