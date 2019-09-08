@@ -34,7 +34,7 @@ body {
     transition: max-height .2s linear,min-height .2s linear,visibility .2s;
     position: relative;
     overflow: hidden;
-    //display: none;
+    display: block;
 }
 
 .intro-tour-header>.tour-header-content-container>.tour-header-background {
