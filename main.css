@@ -65,6 +65,13 @@ body {
     z-index: 2;
 }
 
+.intro-tour-header>.tour-header-content-container>.dismiss-button:hover {
+    background-color:hsla(0,0%,100%,.2)
+}
+.intro-tour-header>.tour-header-content-container>.dismiss-button:active, .intro-tour-header>.tour-header-content-container>.dismiss-button:focus {
+    background-color:hsla(0,0%,100%,.4)
+}
+
 .intro-glyph {
     color: #ffffff;
     fill: #ffffff;
