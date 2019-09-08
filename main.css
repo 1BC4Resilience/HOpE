@@ -42,9 +42,15 @@ body {
     margin-bottom: 6px;
 }
 
-.intro-tour-header>.tour-header-content-container h5 {
+.intro-tour-header>.tour-header-content-container p {
     margin-top: 6px;
     margin-bottom: 4px;
+    line-height: 1.1em;
+}
+
+.intro-tour-header>.tour-header-content-container.ul li {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .intro-tour-header>.tour-header-content-container>.tour-header-background {
