@@ -64,6 +64,14 @@ body {
     z-index: 2;
 }
 
+.intro-glyph {
+    color: #bebebe;
+    fill: #bebebe;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+}
+
 .intro-tour-header>.tour-header-content-container>.dismiss-button>.intro-glyph {
     display: block;
     margin: 0 auto;
