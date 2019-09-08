@@ -16,6 +16,74 @@ body {
   padding-bottom: 100px;
 }
 
+/* Intro section, with dynamic show & hide */
+
+.intro-tour-header {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    color: #fff;
+    background-color: #17244f;
+    background: linear-gradient(90deg,#17244f 0,#05b5c1);
+    position: relative;
+}
+
+.intro-tour-header>.tour-header-content-container {
+    min-height: 280px;
+    max-height: 500px;
+    transition: max-height .2s linear,min-height .2s linear,visibility .2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-tour-header>.tour-header-content-container>.tour-header-background {
+    position: absolute;
+    background: transparent url(/resources/images/home/tourheader/background.png) 0 100% no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 280px;
+    opacity: .5;
+}
+
+.intro-tour-header>.tour-header-content-container>.tour-header-content {
+    color: inherit;
+    position: relative;
+    padding: 26px 10px 26px 40px;
+}
+
+.intro-tour-header>.tour-header-content-container>.dismiss-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: inherit;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+}
+
+.intro-tour-header>.tour-header-content-container>.dismiss-button>.intro-glyph {
+    display: block;
+    margin: 0 auto;
+}
+
+.intro-tour-header>button {
+    position: absolute;
+    left: calc(50% - 16px);
+    top: calc(100% - 16px);
+    background: none;
+}
+
+.intro-tour-header>button>svg {
+    color: #bebebe;
+    width: 32px;
+    height: 32px;
+}
+
+/* end of Intro section */
+
 figure {
   margin: 0;
   //padding: 0;
