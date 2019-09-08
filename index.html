@@ -45,11 +45,18 @@
   </div>
   <button aria-label="Hide welcome banner" onClick="toggledisplay('intro-content')">
     <svg class="intro-glyph" aria-hidden="true" focusable="false" viewBox="0 0 16 16">
-      <g>
-        <circle cx="8" cy="8" r="7.1" class="background"></circle>
-        <path d="M8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM8,15a7,7,0,1,1,7-7A7,7,0,0,1,8,15Z"></path>
-        <path d="M8,5l4,4.18-.78.82L8,6.65,4.78,10,4,9.18Z"></path>
-      </g>
+    <g id=”up-arrows” style="display: none;">
+      <circle cx="8" cy="8" r="7.1" class="background"></circle>
+      <path d="M8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM8,15a7,7,0,1,1,7-7A7,7,0,0,1,8,15Z"></path>
+      <path d="M8,5l4,4.18-.78.82L8,6.65,4.78,10,4,9.18Z"></path>
+    </g>
+
+    <g id=”down-arrows”>
+      <path d="M15,0v4c0,3.9-3.1,7-7,7S1,7.9,1,4V0H0z" class="background"></path>
+      <path d="M15,0v4c0,3.9-3.1,7-7,7S1,7.9,1,4V0H0v4c0,4.4,3.6,8,8,8s8-3.6,8-8V0H15z"></path>
+      <path d="M4,4.8L4.8,4L8,7.4L11.2,4L12,4.8L8,9L4,4.8z"></path>
+    </g>
+
     </svg>
   </button>
   </div>
