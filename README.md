@@ -8,7 +8,7 @@
    >
    > The explorer builds on:
    >   + an initial suggestion from the British Red Cross, 
-   >   + a design session held with the Norwegian Red Cross, and DNV GL, a corporate partner to the Norwegian Red Cross British Red Cross, and 
+   >   + a design session held with the Norwegian Red Cross, British Red Cross, and DNV GL, a corporate partner to the Norwegian Red Cross and 
    >   + inspiration from a similar [Global Opportunity Explorer](https://goexplorer.org) built by DNV GL and other corporate partners.
 
 1. **Features:**
