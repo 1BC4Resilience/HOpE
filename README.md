@@ -2,8 +2,8 @@
 >The Humanitarian Opportunity Explorer enables people to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners.
 
 1. Features:
-.* provides taster menu to highlight different opportunities and then steers users off to relevant sites for follow-up
-.* user generated
+  + provides taster menu to highlight different opportunities and then steers users off to relevant sites for follow-up
+  + user generated
 
 2. Base:
 shuttle.js
