@@ -5,11 +5,11 @@
    + provides taster menu to highlight different opportunities and then steers users off to relevant sites for follow-up
    + user generated
 
-2. Base:
-   + The roject builds substantially on [Shuffle.js¨](https://vestride.github.io/Shuffle).
+1. Base:
+   + The project builds substantially on [Shuffle.js¨](https://vestride.github.io/Shuffle).
    + There is also a little bit of html & css from Microsoft Dynamics 365 used for the hidden Intro section.
 
-3. New features to potentially add:
+1. New features to potentially add:
    1. add status of projects (and show in description, like project, or maintain as another attribute?)
    1. translation into multiple languages
    1. enable sharing by social media (e.g. as cards on Twitter)
