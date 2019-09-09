@@ -170,8 +170,10 @@ function getMarkupFromData(dataForSingleItem) {
   var contact = dataForSingleItem[4];
   var link = dataForSingleItem[5];
   var image = dataForSingleItem[6];
-  var dateCreated = dataForSingleItem[7];
-  var validated = dataForSingleItem[8];
+  var typeOfOpportunity = dataForSingleItem[7];
+  var StageOfDevelopment = dataForSingleItem[8];
+  var dateCreated = dataForSingleItem[9];
+  var validated = dataForSingleItem[10];
   var tagsArray = tags.split(',');
   var singleQuote = '&#39;';
   
