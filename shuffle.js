@@ -171,7 +171,7 @@ function getMarkupFromData(dataForSingleItem) {
   var link = dataForSingleItem[5];
   var image = dataForSingleItem[6];
   var typeOfOpportunity = dataForSingleItem[7];
-  var StageOfDevelopment = dataForSingleItem[8];
+  var stageOfDevelopment = dataForSingleItem[8];
   var dateCreated = dataForSingleItem[9];
   var validated = dataForSingleItem[10];
   var tagsArray = tags.split(',');
@@ -204,6 +204,7 @@ function getMarkupFromData(dataForSingleItem) {
       '  <div class="back"></div>',
       '  <span class="picture-item__description">' + description + '</span>',
       '  <span class="picture-item__location">Location: ' + location + '</span>',
+      '  <span class="picture-item__contact">Stage: ' + stageOfDevelopment + '</span>',
       '  <span class="picture-item__contact">Contact: ' + contact + '</span>',
       '</div>',
     '</figure>',
