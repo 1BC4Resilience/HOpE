@@ -6,11 +6,10 @@
    + user generated
 
 2. Base:
-   + shuttle.js
-   + little bit of html & css from Microsoft Dynamics 365 for hidden Intro section
+   + The roject builds substantially on [Shuffle.js¨](https://vestride.github.io/Shuffle).
+   + There is also a little bit of html & css from Microsoft Dynamics 365 used for the hidden Intro section.
 
 3. New features to potentially add:
-   1. intro for users (maybe like pull down section at the top of Dynamics 365)
    1. add status of projects (and show in description, like project, or maintain as another attribute?)
    1. translation into multiple languages
    1. enable sharing by social media (e.g. as cards on Twitter)
