@@ -30,7 +30,7 @@ body {
 
 .intro-tour-header>.tour-header-content-container {
     min-height: 160px;
-    max-height: 300px;
+    max-height: 330px;
     transition: max-height .2s linear,min-height .2s linear,visibility .2s;
     position: relative;
     overflow: hidden;
