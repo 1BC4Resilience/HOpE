@@ -286,6 +286,15 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   font-size: 0.8em;
 }
 
+.picture-item__stage {
+  position: relative; 
+  z-index: 3;
+  display: inline !important;
+  font-size: 0.9em;
+  font-style: italic;
+  
+}
+
 .picture-item__contact {
   position: relative; 
   z-index: 3;
