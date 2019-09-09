@@ -10,10 +10,10 @@
    + little bit of html & css from Microsoft Dynamics 365 for hidden Intro section
 
 3. New features to potentially add:
-   a. intro for users (maybe like pull down section at the top of Dynamics 365)
-   a. add status of projects (and show in description, like project, or maintain as another attribute?)
-   a. translation into multiple languages
-   a. enable sharing by social media (e.g. as cards on Twitter)
-   a. enable people to share search terms (e.g. through URL parameters)
+   1. intro for users (maybe like pull down section at the top of Dynamics 365)
+   1. add status of projects (and show in description, like project, or maintain as another attribute?)
+   1. translation into multiple languages
+   1. enable sharing by social media (e.g. as cards on Twitter)
+   1. enable people to share search terms (e.g. through URL parameters)
 
 
