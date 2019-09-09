@@ -1,12 +1,13 @@
 # Humanitarian Opportunity Explorer (HOpE)
 >The Humanitarian Opportunity Explorer enables people to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners.
+>You see a running version of the site at [1bc4resilience.github.io/HOpE](https://1bc4resilience.github.io/HOpE/).
 
 1. Features:
    + provides taster menu to highlight different opportunities and then steers users off to relevant sites for follow-up
    + user generated
 
 1. Base:
-   + The project builds substantially on [Shuffle.js¨](https://vestride.github.io/Shuffle).
+   + The project builds substantially on [Shuffle.js](https://vestride.github.io/Shuffle).
    + There is also a little bit of html & css from Microsoft Dynamics 365 used for the hidden Intro section.
 
 1. New features to potentially add:
