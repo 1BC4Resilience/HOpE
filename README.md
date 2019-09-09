@@ -9,7 +9,6 @@
    > The explorer builds on:
    >   + an initial suggestion from the British Red Cross 
    >   + a design session held with the Norwegian Red Cross, British Red Cross, and DNV GL, a corporate partner to the Norwegian Red Cross
-   >     ![Opportunity Explorer design and MVP](./img/Opportunity-Explorer-MVP.png)
    >     ![Opportunity Explorer design and MVP](./img/Opportunity-Explorer-MVP-small.png)
    >   + inspiration from a similar [Global Opportunity Explorer](https://goexplorer.org) built by DNV GL and other corporate partners
 
