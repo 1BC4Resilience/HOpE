@@ -6,7 +6,10 @@
 1. **Project team:**
    > The Humanitarian Opportunity Explorer has been built as part of the collaboration on **Digital and Data Transformation** being under taken by the network of the **International Federation of Red Cross and Red Crescent Societies** ([IFRC](http://www.ifrc.org)).
    >
-   > The explorer builds on suggestions from the British Red Cross and Norwegian Red Cross and inspiration from a similar [Global Opportunity Explorer](https://goexplorer.org) built by DNV GL and other corporate partners.
+   > The explorer builds on:
+      + an initial suggestion from the British Red Cross, 
+      + a design session held with the Norwegian Red Cross, and DNV GL, a corporate partner to the Norwegian Red Cross British Red Cross, and 
+      + inspiration from a similar [Global Opportunity Explorer](https://goexplorer.org) built by DNV GL and other corporate partners.
 
 1. **Features:**
    + provides taster menu to highlight different opportunities and then steers users off to relevant sites for more information
