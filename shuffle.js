@@ -204,7 +204,7 @@ function getMarkupFromData(dataForSingleItem) {
       '  <div class="back"></div>',
       '  <span class="picture-item__description">' + description + '</span>',
       '  <span class="picture-item__location">Location: ' + location + '</span>',
-      '  <span class="picture-item__contact">Stage: ' + stageOfDevelopment + '</span>',
+      '  <span class="picture-item__stage">Stage: ' + stageOfDevelopment + '.</span>',
       '  <span class="picture-item__contact">Contact: ' + contact + '</span>',
       '</div>',
     '</figure>',
