@@ -23,7 +23,7 @@
 1. **New features to potentially add:**
    1. fix minor bug so that the search still works when filters are selected
    1. add status of projects (and show in description, like project, or maintain as another attribute?)
-   1. translation into multiple languages
+   1. enable translation into multiple languages (using Google translate to translate card inputs from initial language to target langue)
    1. enable sharing by social media (e.g. as cards on Twitter)
    1. enable people to share search terms (e.g. through URL parameters)
 
