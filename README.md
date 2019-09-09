@@ -6,14 +6,14 @@
    + user generated
 
 2. Base:
-shuttle.js
-little bit of html & css from Microsoft Dynamics 365 for hidden Intro section
+   + shuttle.js
+   + little bit of html & css from Microsoft Dynamics 365 for hidden Intro section
 
 3. New features to potentially add:
-   1) intro for users (maybe like pull down section at the top of Dynamics 365)
-   2) add status of projects (and show in description, like project, or maintain as another attribute?)
-   3) translation into multiple languages
-   4) enable sharing by social media (e.g. as cards on Twitter)
-   5) enable people to share search terms (e.g. through URL parameters)
+   a. intro for users (maybe like pull down section at the top of Dynamics 365)
+   a. add status of projects (and show in description, like project, or maintain as another attribute?)
+   a. translation into multiple languages
+   a. enable sharing by social media (e.g. as cards on Twitter)
+   a. enable people to share search terms (e.g. through URL parameters)
 
 
