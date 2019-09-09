@@ -1,4 +1,11 @@
 
+Features:
+provides taster menu to highlight different opportunities and then steers users off to relevant sites for follow-up
+user generated
+
+Base:
+shuttle.js
+little bit of html & css from Microsoft Dynamics 365 for hidden Intro section
 
 New features to potentially add:
    1) intro for users (maybe like pull down section at the top of Dynamics 365)
