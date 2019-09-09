@@ -1,4 +1,7 @@
-
+#Humanitarian Opportunity Explorer (HOpE)
+>
+The Humanitarian Opportunity Explorer enables you to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners.
+>
 Features:
 provides taster menu to highlight different opportunities and then steers users off to relevant sites for follow-up
 user generated
