@@ -4,7 +4,7 @@
 >You see a running version of the site at [1bc4resilience.github.io/HOpE](https://1bc4resilience.github.io/HOpE/).
 
 1. Project team:
-> The Humanitarian Opportunity Explorer has been built as part of the collaboration on Digital and Data Transformation being under taken by the network of the International Federation of Red Cross and Red Crescent Societies ([IFRC](http://www.ifrc.org)).
+... The Humanitarian Opportunity Explorer has been built as part of the collaboration on Digital and Data Transformation being under taken by the network of the International Federation of Red Cross and Red Crescent Societies ([IFRC](http://www.ifrc.org)).
 
 1. Features:
    + provides taster menu to highlight different opportunities and then steers users off to relevant sites for more information
