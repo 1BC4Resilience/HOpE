@@ -24,6 +24,7 @@
 
 1. **New features to potentially add:**
    1. fix minor bug so that the search still works when filters are selected
+   1. consider change responsive seetings for mobile view in profile to be 1 column instead of 2 column (this would also allow use of both larger text and additional text for description)
    1. add progressive loading (as the user scrolls) as the number of Opportunities increases [otherwise the loading the images will slow initial use]
    1. consider using service to reduce image sizes as number of Opportunities increases
    1. enable translation into multiple languages (using Google translate to translate card inputs from initial language to target langue)
