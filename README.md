@@ -19,7 +19,7 @@
    + responsive site that works well on mobile
 
 1. **Base:**
-   + The project builds substantially on [Shuffle.js](https://vestride.github.io/Shuffle).
+   + The project builds substantially on [Shuffle](https://vestride.github.io/Shuffle) project on Github.
    + There is also a little bit of html & css from Microsoft Dynamics 365 used for the hidden Intro section.
 
 1. **New features to potentially add:**
