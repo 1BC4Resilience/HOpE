@@ -1,5 +1,5 @@
 # Humanitarian Opportunity Explorer (HOpE)
->The Humanitarian Opportunity Explorer enables people to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners.
+>The Humanitarian Opportunity Explorer provides a compact, easy-to-use tool for people to share Opportunities (tools, approaches, or other resources) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners. The primary goal is to support initial discovery, by presenting a wide range of opportunity and enabling fast, responsive filtering and searching. Links in the cards then guide the user to other sites and information where more information is available. The explorer is meant to capture both established Opportunities and new ones that are in various stages of ideation, prototyping, or development.
 >
 >You can see a running version of the site at [1bc4resilience.github.io/HOpE](https://1bc4resilience.github.io/HOpE/).
 
@@ -21,6 +21,10 @@
 1. **Base:**
    + The project builds substantially on [Shuffle](https://vestride.github.io/Shuffle) project on Github.
    + There is also a little bit of html & css from Microsoft Dynamics 365 used for the hidden Intro section.
+
+1. **Future state:**
+   1. In the future the explorer could be hosted on another site or with with dedicated domain name. (the current version is just intended as a prototype to test user interest and utility.)
+   1. The current usage of Google Sheets and Google forms could be changed to use the IFRC’s Kobo form and server service instead.
 
 1. **New features to potentially add:**
    1. fix minor bug so that the search still works when filters are selected
