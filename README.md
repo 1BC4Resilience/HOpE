@@ -2,6 +2,8 @@
 >The Humanitarian Opportunity Explorer provides a compact, easy-to-use tool for people to share Opportunities (tools, approaches, or other resources) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners. The primary goal is to support initial discovery, by presenting a wide range of opportunity and enabling fast, responsive filtering and searching. Links in the cards then guide the user to other sites and information where more information is available. The explorer is meant to capture both established Opportunities and new ones that are in various stages of ideation, prototyping, or development.
 >
 >You can see a running version of the site at [1bc4resilience.github.io/HOpE](https://1bc4resilience.github.io/HOpE/).
+>
+>Similar sites have been created in the past *[examples to be added]*. We will reach out to learn more about the lessons from those efforts and how we might maximize the utitility of the current or new versions of the explorer.
 
 1. **Project team:**
    > The Humanitarian Opportunity Explorer has been built as part of the collaboration on **Digital and Data Transformation** being under taken by the network of the **International Federation of Red Cross and Red Crescent Societies** ([IFRC](http://www.ifrc.org)).
