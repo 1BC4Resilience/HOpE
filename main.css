@@ -483,6 +483,7 @@ legend {
 }
 
 .last-filter-option {
+  clear: both;
 }
 
 @media (-moz-touch-enabled:0),(pointer: fine) {
