@@ -402,7 +402,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 // Filter styling
 // --------------
 .filter-label {
-  display: block;
+  display: table-row;
   padding: 6px 0 6px 0;
   margin-top: 4px;
   margin-bottom: 4px;
@@ -410,7 +410,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 }
 
 legend {
-  display: table-row;
   padding: 6px 0 6px 0;
 }
 
