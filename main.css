@@ -474,6 +474,10 @@ legend {
   -webkit-appearance: none
 }
 
+.last-filter-option:after {
+    border-right: 0px solid #34495e;
+}
+
 @media (-moz-touch-enabled:0),(pointer: fine) {
   .btn:hover {
     color:#fff;
