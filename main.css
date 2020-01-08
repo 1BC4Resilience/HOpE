@@ -475,8 +475,8 @@ legend {
   -webkit-appearance: none
 }
 
-.last-filter-option:after {
-    border-right-width: 0px;
+.last-filter-option {
+    border-right-width: 0px !important;
 }
 
 @media (-moz-touch-enabled:0),(pointer: fine) {
