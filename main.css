@@ -467,7 +467,7 @@ legend {
   border-radius: 0px;
   border-style: solid;
   border-color: #34495e;
-  border-width: 0px 1px 0px 0px;
+  border-width: 0px 0px 0px 0px;
   color: #34495e;
   font-size: 1rem;
   background-color: rgba(52,73,94,0);
@@ -476,8 +476,13 @@ legend {
   -webkit-appearance: none
 }
 
+.precede-option:before {
+  content: "// ";
+  position: relative;
+  left: -1px;
+}
+
 .last-filter-option {
-    border-right-width: 0px !important;
 }
 
 @media (-moz-touch-enabled:0),(pointer: fine) {
