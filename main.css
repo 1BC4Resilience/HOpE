@@ -409,7 +409,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 }
 
 #transformations-label {
-  display: table-row !important;
 }
 
 legend {
