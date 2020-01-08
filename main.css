@@ -477,7 +477,7 @@ legend {
 }
 
 .precede-option:before {
-  content: "// ";
+  content: "/ ";
   position: relative;
   left: -1px;
 }
