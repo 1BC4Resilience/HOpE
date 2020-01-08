@@ -465,7 +465,7 @@ legend {
   padding: .5em .4em;
   text-align: center;
   border-radius: 0px;
-  border-right: 1px solid #34495e;
+  border: 0px solid #34495e;
   color: #34495e;
   font-size: 1rem;
   background-color: rgba(52,73,94,0);
@@ -475,7 +475,6 @@ legend {
 }
 
 .last-filter-option:after {
-    border-right: 0px solid #34495e;
 }
 
 @media (-moz-touch-enabled:0),(pointer: fine) {
