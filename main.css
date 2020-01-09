@@ -196,6 +196,9 @@ body {
 
 /* end of Tabs section */
 
+.fa-sort-alpha-down {
+  color: #4c4c4c;
+}
 
 figure {
   margin: 0;
