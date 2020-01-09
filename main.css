@@ -204,6 +204,11 @@ body {
   color: #4c4c4c;
 }
 
+.btn.active .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
+  color: #ffffff;
+}
+
+
 figure {
   margin: 0;
   //padding: 0;
