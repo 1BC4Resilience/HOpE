@@ -156,7 +156,7 @@ body {
   cursor: pointer;
   background:  #FFF;
   font-weight: bold;
-  font-color: #a9afb2;
+  color: #a9afb2;
   transition: background ease 0.2s;
 }
  
