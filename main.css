@@ -143,12 +143,12 @@ body {
 
 /* start of Tabs section */
 
-.tabs {
+#filters-section>tabs {
   display: flex;
   flex-wrap: wrap;
 }
  
-.tabs label {
+#filters-section>tabs label {
   order: 1;
   display: block;
   padding: 1rem 2rem;
@@ -159,7 +159,7 @@ body {
   transition: background ease 0.2s;
 }
  
-.tabs .tab {
+#filters-section>tabs .tab {
   order: 99;
   flex-grow: 1;
   width: 100%;
@@ -168,15 +168,15 @@ body {
   background: #fff;
 }
  
-.tabs input[type="radio"] {
+#filters-section>tabs input[type="radio"] {
   display: none;
 }
  
-.tabs input[type="radio"]:checked + label {
+#filters-section>tabs input[type="radio"]:checked + label {
   background: #fff;
 }
  
-.tabs input[type="radio"]:checked + label + .tab {
+#filters-section>tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
  
