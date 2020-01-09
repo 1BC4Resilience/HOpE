@@ -196,7 +196,7 @@ body {
 
 /* end of Tabs section */
 
-.fa-sort-alpha-down .fa-calendar {
+.fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
   color: #4c4c4c;
 }
 
