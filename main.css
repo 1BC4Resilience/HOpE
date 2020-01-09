@@ -143,12 +143,12 @@ body {
 
 /* start of Tabs section */
 
-.container.tabs {
+.container>.tabs {
   display: flex;
   flex-wrap: wrap;
 }
  
-.container.tabs label {
+.container>.tabs label {
   order: 1;
   display: block;
   padding: 1rem 2rem;
@@ -159,7 +159,7 @@ body {
   transition: background ease 0.2s;
 }
  
-.container.tabs .tab {
+.container>.tabs .tab {
   order: 99;
   flex-grow: 1;
   width: 100%;
@@ -168,25 +168,25 @@ body {
   background: #fff;
 }
  
-.container.tabs input[type="radio"] {
+.container>.tabs input[type="radio"] {
   display: none;
 }
  
-.container.tabs input[type="radio"]:checked + label {
+.container>.tabs input[type="radio"]:checked + label {
   background: #fff;
 }
  
-.container.tabs input[type="radio"]:checked + label + .tab {
+.container>.tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
  
 @media (max-width: 45em) {
-  .container.tabs .tab,
-  .container.tabs label {
+  .container>.tabs .tab,
+  .container>.tabs label {
     order: initial;
   }
  
-  .container.tabs label {
+  .container>.tabs label {
     width: 100%;
     margin-right: 0;
     margin-top: 0.2rem;
