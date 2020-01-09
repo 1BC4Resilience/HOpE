@@ -181,7 +181,7 @@ body {
   display: block;
 }
  
-@media (max-width: 45em) {
+@media (max-width: 15em) {
   .container>.tabs .tab,
   .container>.tabs .tab-label {
     order: initial;
