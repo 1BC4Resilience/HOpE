@@ -143,12 +143,12 @@ body {
 
 /* start of Tabs section */
 
-#filters-section.tabs {
+.container.tabs {
   display: flex;
   flex-wrap: wrap;
 }
  
-#filters-section>tabs label {
+.container.tabs label {
   order: 1;
   display: block;
   padding: 1rem 2rem;
@@ -159,7 +159,7 @@ body {
   transition: background ease 0.2s;
 }
  
-#filters-section>tabs .tab {
+.container.tabs .tab {
   order: 99;
   flex-grow: 1;
   width: 100%;
@@ -168,25 +168,25 @@ body {
   background: #fff;
 }
  
-#filters-section>tabs input[type="radio"] {
+.container.tabs input[type="radio"] {
   display: none;
 }
  
-#filters-section>tabs input[type="radio"]:checked + label {
+.container.tabs input[type="radio"]:checked + label {
   background: #fff;
 }
  
-#filters-section>tabs input[type="radio"]:checked + label + .tab {
+.container.tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
  
 @media (max-width: 45em) {
-  #filters-section>tabs .tab,
-  #filters-section>tabs label {
+  .container.tabs .tab,
+  .container.tabs label {
     order: initial;
   }
  
-  #filters-section>tabs label {
+  .container.tabs label {
     width: 100%;
     margin-right: 0;
     margin-top: 0.2rem;
