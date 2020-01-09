@@ -143,7 +143,7 @@ body {
 
 /* start of Tabs section */
 
-#filters-section>tabs {
+#filters-section.tabs {
   display: flex;
   flex-wrap: wrap;
 }
