@@ -197,7 +197,7 @@ body {
 /* end of Tabs section */
 
 #sort-label {
- clear: both; 
+ display: block !important; 
 }
 
 .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
