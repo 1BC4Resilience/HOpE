@@ -154,8 +154,9 @@ body {
   padding: 1rem 2rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background:  #3CC0F8;
+  background:  #FFF;
   font-weight: bold;
+  font-color: #a9afb2;
   transition: background ease 0.2s;
 }
  
