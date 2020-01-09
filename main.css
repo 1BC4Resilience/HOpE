@@ -172,11 +172,11 @@ body {
   display: none;
 }
  
-.container>.tabs input[type="radio"]:checked + label {
+.container>.tabs input[type="radio"]:checked + .tab-label {
   background: #fff;
 }
  
-.container>.tabs input[type="radio"]:checked + label + .tab {
+.container>.tabs input[type="radio"]:checked + .tab-label + .tab {
   display: block;
 }
  
