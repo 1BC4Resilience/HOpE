@@ -1,3 +1,10 @@
+/* For Tabs section */
+
+@import "bourbon/bourbon";
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
+
+
 /* Small reset */
 *,
 ::before,
@@ -142,11 +149,6 @@ body {
 /* end of Intro section */
 
 /* start of Tabs section */
-
-@import "bourbon/bourbon";
-
-@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
-
 
 /* colors */
 $blue: #428BFF;
