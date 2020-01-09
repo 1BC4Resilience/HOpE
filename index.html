@@ -29,42 +29,6 @@
   </div>
 </div>
   
-<div class="intro-tour-header">
-  <div id="intro-content" class="tour-header-content-container" style="display: none;">
-    <div class="tour-header-background">
-    </div>
-    <div class="tour-header-content">
-      <h3>Introduction</h3>
-      <p>The Humanitarian Opportunity Explorer enables you to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners. The opportunities can be existing, new, or even in progress (although it would be good to note the status in the description).</p>
-      <ul>
-        <li>Click on the pictures to bring up more detail.</li>
-        <li>See something missing? Feel free to share other opportunities.</li>
-      </ul>
-    </div>
-    <button aria-label="Close" class="dismiss-button" onClick="toggledisplay('intro-content'), toggledisplay('up-arrows'), toggledisplay('down-arrows')">
-      <svg class="intro-glyph" aria-hidden="true" focusable="false" viewBox="0 0 16 16">
-        <path d="M8.73,8,15,14.27l-.73.73L8,8.73,1.73,15,1,14.27,7.27,8,1,1.73,1.73,1,8,7.27,14.27,1l.73.73Z"></path>
-      </svg>
-    </button>
-  </div>
-  <button aria-label="Hide welcome banner" style="display: inline;">
-    <svg class="intro-glyph" aria-hidden="true" focusable="false" viewBox="0 0 16 16">
-    <g id="up-arrows" style="display: none;" onClick="toggledisplay('intro-content'), toggledisplay('up-arrows'), toggledisplay('down-arrows')">
-      <circle cx="8" cy="8" r="7.1" class="background"></circle>
-      <path d="M8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM8,15a7,7,0,1,1,7-7A7,7,0,0,1,8,15Z"></path>
-      <path d="M8,5l4,4.18-.78.82L8,6.65,4.78,10,4,9.18Z"></path>
-    </g>
-
-    <g id="down-arrows" style="display: inline;" onClick="toggledisplay('intro-content'), toggledisplay('up-arrows'), toggledisplay('down-arrows')">
-      <path d="M15,0v4c0,3.9-3.1,7-7,7S1,7.9,1,4V0H0z" class="background"></path>
-      <path d="M15,0v4c0,3.9-3.1,7-7,7S1,7.9,1,4V0H0v4c0,4.4,3.6,8,8,8s8-3.6,8-8V0H15z"></path>
-      <path d="M4,4.8L4.8,4L8,7.4L11.2,4L12,4.8L8,9L4,4.8z"></path>
-    </g>
-
-    </svg>
-  </button>
-  </div>
-  
 
 <div id="filters-section" class="container">
 
@@ -100,7 +64,7 @@
             <input type="radio" name="sort-value" value="dom" checked /> Default
           </label>
           <label class="btn">
-            <input type="radio" name="sort-value" value="title" /> Title
+            <input type="radio" name="sort-value" value="title" /> <i class="fas fa-sort-alpha-down"></i> Title
           </label>
           <label class="btn">
             <input type="radio" name="sort-value" value="date-created" /> Date Created
@@ -135,6 +99,10 @@
     <div class="tab">
      <h3>Introduction</h3>
       <p>The Humanitarian Opportunity Explorer enables you to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners. The opportunities can be existing, new, or even in progress (although it would be good to note the status in the description).</p>
+      <ul>
+        <li>Click on the pictures to bring up more detail.</li>
+        <li>See something missing? Feel free to share other opportunities.</li>
+      </ul>
     </div>
   </div>    
 	    
