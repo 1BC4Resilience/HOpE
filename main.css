@@ -216,6 +216,7 @@ h1 {
   margin: auto;
   padding: 50px 0;
   font-style: italic;
+  font-size: 12px;
 }
 
 #sort-label, .sort-options {
