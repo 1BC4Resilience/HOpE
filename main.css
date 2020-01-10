@@ -179,7 +179,7 @@ h1 {
   width: 100%;
   display: none;
   padding: 0.6rem 1rem;
-  background: #fff;
+  background: #515151;
 }
  
 .container>.tabs input[type="radio"] {
@@ -297,6 +297,10 @@ p {
 
 #filters-section {
   padding-top: 0.4em;
+}
+
+.filter-label {
+  color: #ffffff;
 }
 
 /*
