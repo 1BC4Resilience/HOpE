@@ -178,8 +178,8 @@ h1 {
   flex-grow: 1;
   width: 100%;
   display: none;
-  padding: 0.6rem 1rem;
-  background: #515151;
+  padding: 0.6rem 0.2rem 0.6rem 1rem;
+  background: #737373;
 }
  
 .container>.tabs input[type="radio"] {
