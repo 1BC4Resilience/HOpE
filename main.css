@@ -232,6 +232,10 @@ h1 {
   display: inline-block;
 }
 
+#sort-label {
+  vertical-align: text-top;
+}
+
 .btn .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
   color: #4c4c4c;
 }
