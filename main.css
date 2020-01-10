@@ -189,7 +189,8 @@ h1 {
 }
  
 .container>.tabs input[type="radio"]:checked + .tab-label {
-  background: #fff;
+  background: #e7e7e7;
+  color: #e60000;
 }
  
 .container>.tabs input[type="radio"]:checked + .tab-label + .tab {
