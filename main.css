@@ -212,11 +212,11 @@ h1 {
 
 /* end of Tabs section */
 
-#sort-label, #sort-options {
+#sort-label, .sort-options {
   clear: both;
 }
 
-.fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
+.btn .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
   color: #4c4c4c;
 }
 
