@@ -223,6 +223,10 @@ h1 {
   font-size: 14px;
 }
 
+#about-tab {
+  font-size: 14px;
+}
+
 #sort-label, .sort-options {
   clear: both;
   display: inline;
