@@ -197,14 +197,15 @@ body {
 /* end of Tabs section */
 
 #sort-label {
- display: block !important; 
+  display: block !important; 
+  clear: both;
 }
 
 .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
   color: #4c4c4c;
 }
 
-.btn.active .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
+.btn:active,.btn:hover .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
   color: #ffffff;
 }
 
