@@ -167,9 +167,9 @@ h1 {
   padding: 0.5rem 1.5rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background:  #FFF;
+  background:  #858585;
   font-weight: bold;
-  color: #a9afb2;
+  color: #ffffff;
   transition: background ease 0.2s;
 }
  
@@ -179,7 +179,7 @@ h1 {
   width: 100%;
   display: none;
   padding: 0.6rem 0.2rem 0.6rem 1rem;
-  background: #858585;
+  background: #cacaca;
 }
  
 .container>.tabs input[type="radio"] {
@@ -187,7 +187,7 @@ h1 {
 }
  
 .container>.tabs input[type="radio"]:checked + .tab-label {
-  background: #858585;
+  background: #cacaca;
   color: #e60000;
 }
  
