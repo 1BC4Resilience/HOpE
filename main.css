@@ -219,14 +219,16 @@ h1 {
   padding: 0px 0;
   font-style: italic;
   font-size: 14px;
+  font-color: #ffffff;
 }
 
 #about-tab {
   font-size: 14px;
+  font-color: #ffffff;
 }
 
 #about-tab.ul li {
-  padding-top: 8px;
+  padding: 5px;
 }
 
 #sort-label, .sort-options {
