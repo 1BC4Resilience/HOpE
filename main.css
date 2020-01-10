@@ -528,6 +528,10 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
     height: auto;
   }
     
+  h1 {
+    font-size: 1.5em;
+  }
+  
   #strategy-2030-element {
       width: 100%; 
   }
