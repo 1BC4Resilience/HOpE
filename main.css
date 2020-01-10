@@ -613,7 +613,7 @@ legend {
   border-style: solid;
   border-color: #34495e;
   border-width: 0px 0px 0px 0px;
-  color: #34495e;
+  color: #e60000;   /* originally #34495e */
   font-size: 1rem;
   background-color: rgba(52,73,94,0);
   transition: .2s ease-out;
