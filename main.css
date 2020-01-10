@@ -229,7 +229,7 @@ h1 {
 
 #sort-label, .sort-options {
   clear: both;
-  display: inline;
+  display: inline-block;
 }
 
 .btn .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
