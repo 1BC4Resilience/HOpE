@@ -147,12 +147,8 @@ h1 {
 /* end of Intro section */
 
 
-.fa-artstation, .fa-search, .fa-question {
+.fa-layer-group, .fa-search, .fa-question {
   margin-right: 6px;
-}
-
-.fa-artstation {
-  color: #a9afb2;
 }
 
 
