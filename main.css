@@ -263,9 +263,15 @@ h1 {
   color: #ffffff;
 }
 
-#submit-new-opportunity, #submit-new-opportunity.a {
-  border-radius: 15px ;
+#submit-new-opportunity {
+  flex-shrink: 2; 
+  display: inline-block;
+  border-radius: 15px;
   float: right;
+}
+
+#submit-new-opportunity.a {
+   border-radius: 15px; 
 }
 
 figure {
