@@ -167,13 +167,14 @@ function getMarkupFromData(dataForSingleItem) {
   var location = dataForSingleItem[1];
   var description = dataForSingleItem[2];
   var tags = dataForSingleItem[3];
-  var contact = dataForSingleItem[4];
-  var link = dataForSingleItem[5];
-  var image = dataForSingleItem[6];
-  var typeOfOpportunity = dataForSingleItem[7];
-  var stageOfDevelopment = dataForSingleItem[8];
-  var dateCreated = dataForSingleItem[9];
-  var validated = dataForSingleItem[10];
+  var tags_to_display = dataForSingleItem[4];
+  var contact = dataForSingleItem[5];
+  var link = dataForSingleItem[6];
+  var image = dataForSingleItem[7];
+  var typeOfOpportunity = dataForSingleItem[8];
+  var stageOfDevelopment = dataForSingleItem[9];
+  var dateCreated = dataForSingleItem[10];
+  var validated = dataForSingleItem[11];
   var tagsArray = tags.split(',');
   var singleQuote = '&#39;';
   
@@ -197,7 +198,7 @@ function getMarkupFromData(dataForSingleItem) {
       '  </div>',
       '  <div class="picture-item__details">',
       '    <figcaption class="picture-item__title"><a href="' + link + '" target="_blank" rel="noopener">' + title + '</a></figcaption>',
-      '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
+      '    <p class="picture-item__tags hidden@xs">' + tags_to_display + '</p>',
       '  </div>',
       ' </div>',
       '<div id="picture-item_descriptionbox-' + entryNumber + '" class="picture-item__descriptionbox" style="display: none;" onClick="toggledisplay(\'picture-item_descriptionbox-' + entryNumber + '\')">',
