@@ -206,8 +206,8 @@ h1 {
   clear: both;
 }
 
-.fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
-  color: #4c4c4c !important;
+.fa-sort-alpha-down {
+  color: #4c4c4c;
 }
 
 .btn:active,.btn:hover .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
