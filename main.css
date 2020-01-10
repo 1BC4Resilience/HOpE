@@ -170,7 +170,7 @@ h1 {
   flex-grow: 1;
   width: 100%;
   display: none;
-  padding: 1rem;
+  padding: 0.6rem 1rem;
   background: #fff;
 }
  
