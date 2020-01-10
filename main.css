@@ -663,7 +663,7 @@ legend {
 }
 
 .btn--primary {
-  color: #3498db;
+  color: #e60000;   /* originally #34495e */
   border-color: #3498db;
   background-color: rgba(52,152,219,0)
 }
