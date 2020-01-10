@@ -240,7 +240,16 @@ h1 {
   color: #4c4c4c;
 }
 
-.btn.active .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
+
+.btn.active .fa-undo-alt {
+  color: #ffffff;
+}
+
+.btn.active .fa-sort-alpha-down {
+  color: #ffffff;
+}
+
+.btn.active .fa-calendar {
   color: #ffffff;
 }
 
