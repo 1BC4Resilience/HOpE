@@ -224,7 +224,7 @@ h1 {
   .a, .a:visited {color: #e60000;}
 }
 
-#strategy-2030-description.a, #strategy-2030-description.a:visited {
+#strategy-2030-description.p.a, #strategy-2030-description.p.a:visited {
     color: #e60000 !important;
 }
 
