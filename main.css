@@ -221,7 +221,7 @@ h1 {
   font-size: 14px;
   color: #ffffff;
   
-  .a {color: #e60000;}
+  .a, .a:visited {color: #e60000;}
 }
 
 #about-tab {
