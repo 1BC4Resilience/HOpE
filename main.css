@@ -179,7 +179,7 @@ h1 {
   width: 100%;
   display: none;
   padding: 0.6rem 0.2rem 0.6rem 1rem;
-  background: #737373;
+  background: #858585;
 }
  
 .container>.tabs input[type="radio"] {
@@ -187,7 +187,7 @@ h1 {
 }
  
 .container>.tabs input[type="radio"]:checked + .tab-label {
-  background: #e7e7e7;
+  background: #858585;
   color: #e60000;
 }
  
@@ -219,12 +219,14 @@ h1 {
   padding: 0px 0;
   font-style: italic;
   font-size: 14px;
-  font-color: #ffffff;
+  color: #ffffff;
+  
+  .a {color: #e60000;}
 }
 
 #about-tab {
   font-size: 14px;
-  font-color: #ffffff;
+  color: #ffffff;
 }
 
 #about-tab.ul li {
