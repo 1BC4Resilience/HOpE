@@ -486,10 +486,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
       text-shadow: 0 0 1px black;
     }
   }
-  
-  #strategy-2030-element {
-      width: 100%; 
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -512,6 +508,10 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   
   .picture-item--h2 {
     height: auto;
+  }
+    
+  #strategy-2030-element {
+      width: 100%; 
   }
 }
 
