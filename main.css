@@ -214,6 +214,7 @@ h1 {
 
 #sort-label, .sort-options {
   clear: both;
+  display: inline;
 }
 
 .btn .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
