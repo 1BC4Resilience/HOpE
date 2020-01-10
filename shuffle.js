@@ -167,14 +167,13 @@ function getMarkupFromData(dataForSingleItem) {
   var location = dataForSingleItem[1];
   var description = dataForSingleItem[2];
   var tags = dataForSingleItem[3];
-  var tags_to_display = dataForSingleItem[4];
-  var contact = dataForSingleItem[5];
-  var link = dataForSingleItem[6];
-  var image = dataForSingleItem[7];
-  var typeOfOpportunity = dataForSingleItem[8];
-  var stageOfDevelopment = dataForSingleItem[9];
-  var dateCreated = dataForSingleItem[10];
-  var validated = dataForSingleItem[11];
+  var contact = dataForSingleItem[4];
+  var link = dataForSingleItem[5];
+  var image = dataForSingleItem[6];
+  var typeOfOpportunity = dataForSingleItem[7];
+  var stageOfDevelopment = dataForSingleItem[8];
+  var dateCreated = dataForSingleItem[9];
+  var validated = dataForSingleItem[10];
   var tagsArray = tags.split(',');
   var singleQuote = '&#39;';
   
