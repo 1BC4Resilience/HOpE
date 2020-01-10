@@ -88,9 +88,8 @@
     <input type="radio" name="tabs" id="tabthree">
     <label for="tabthree" class="tab-label"><i class="fas fa-question"></i> About</label>
     <div class="tab">
-     <span id="about-heading">Introduction</span>
       <p>The Humanitarian Opportunity Explorer enables you to share an Opportunity (tool, approach, or other resource) with the wide set of colleagues in the Red Cross Red Crescent and with other humanitarian and development partners. The opportunities can be existing, new, or even in progress (although it would be good to note the status in the description).</p>
-      <ul>
+      <ul id="about-list">
         <li>Click on the pictures to bring up more detail.</li>
         <li>See something missing? Feel free to share other opportunities.</li>
       </ul>
@@ -98,7 +97,7 @@
   </div>    
 	    
       <fieldset class="filters-group">
-        <legend class="filter-label" id="sort-label">Sort</legend>
+        <span id="sort-label">Sort: </span>
         <div class="btn-group sort-options">
           <label class="btn active">
             <input type="radio" name="sort-value" value="dom" checked /> <i class="fas fa-undo-alt"></i> 
