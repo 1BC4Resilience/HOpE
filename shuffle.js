@@ -174,6 +174,7 @@ function getMarkupFromData(dataForSingleItem) {
   var stageOfDevelopment = dataForSingleItem[8];
   var dateCreated = dataForSingleItem[9];
   var validated = dataForSingleItem[10];
+  var tags_to_display = dataForSingleItem[11];
   var tagsArray = tags.split(',');
   var singleQuote = '&#39;';
   
@@ -197,7 +198,7 @@ function getMarkupFromData(dataForSingleItem) {
       '  </div>',
       '  <div class="picture-item__details">',
       '    <figcaption class="picture-item__title"><a href="' + link + '" target="_blank" rel="noopener">' + title + '</a></figcaption>',
-      '    <p class="picture-item__tags hidden@xs">' + tags + '</p>',
+      '    <p class="picture-item__tags hidden@xs">' + tags_to_display + '</p>',
       '  </div>',
       ' </div>',
       '<div id="picture-item_descriptionbox-' + entryNumber + '" class="picture-item__descriptionbox" style="display: none;" onClick="toggledisplay(\'picture-item_descriptionbox-' + entryNumber + '\')">',
