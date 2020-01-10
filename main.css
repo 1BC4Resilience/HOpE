@@ -146,6 +146,12 @@ h1 {
 
 /* end of Intro section */
 
+
+.fa-artstation, .fa-search, .fa-question {
+  margin-right: 6px;
+}
+
+
 /* start of Tabs section */
 
 .container>.tabs {
