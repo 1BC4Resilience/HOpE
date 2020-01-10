@@ -202,12 +202,12 @@ h1 {
 /* end of Tabs section */
 
 #sort-label {
-  display: block !important; 
+  display: inline-block !important; 
   clear: both;
 }
 
-.fa-sort-alpha-down {
-  color: #4c4c4c;
+.fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
+  color: #4c4c4c !important;
 }
 
 .btn:active,.btn:hover .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
