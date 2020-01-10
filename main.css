@@ -654,7 +654,7 @@ legend {
 .btn:disabled {
   cursor: not-allowed;
   opacity: .7;
-  color: #34495e;
+  color: #e60000;   /* originally #34495e */
   background-color: rgba(52,73,94,0)
 }
 
