@@ -254,6 +254,9 @@ h1 {
   color: #ffffff;
 }
 
+#submit-new-opportunity {
+  border-radius: 15px ;
+}
 
 figure {
   margin: 0;
