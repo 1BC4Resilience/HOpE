@@ -227,6 +227,10 @@ h1 {
   font-size: 14px;
 }
 
+#about-tab.ul li {
+  padding-top: 8px;
+}
+
 #sort-label, .sort-options {
   clear: both;
   display: inline;
