@@ -256,7 +256,7 @@ function toggledisplay(elementID)
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:K?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
+  fetch('https://sheets.googleapis.com/v4/spreadsheets/18k4CtZVn7rW52OVQxI_VZ_wanX9wE8TFnJJ1EGhoL3A/values/A2:L?key=AIzaSyAyaLHCMTHV4hrKpnj0r54fi_iucvTbYwU')
   .then(function (response) {
       return response.json();
   })
