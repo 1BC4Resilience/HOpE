@@ -265,6 +265,7 @@ h1 {
 
 #submit-new-opportunity, #submit-new-opportunity.a {
   border-radius: 15px ;
+  float: right;
 }
 
 figure {
