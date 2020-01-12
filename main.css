@@ -663,12 +663,12 @@ legend {
 .btn:disabled {
   cursor: not-allowed;
   opacity: .7;
-  color: #e60000;   /* originally #34495e */
+  color: #34495e;   /* originally #34495e */
   background-color: rgba(52,73,94,0)
 }
 
 .btn--primary {
-  color: #e60000;   /* originally #34495e */
+  color: #34495e;   /* originally #34495e. Later tried with red (#e60000)*/
   border-color: #3498db;
   background-color: rgba(52,152,219,0)
 }
