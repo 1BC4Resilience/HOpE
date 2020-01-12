@@ -247,7 +247,7 @@ h1 {
 }
 
 #sort-label {
-  vertical-align: top;
+  vertical-align: middle;
   color: #ffffff;
 }
 
@@ -458,12 +458,16 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
  text-align:center;
  transition: all 0.2s;
  
-  //margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  
+  /* original positioning 
+    //margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  * /
 }
 
 .share-new:hover {
