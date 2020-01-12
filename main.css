@@ -629,7 +629,7 @@ legend {
   border-style: solid;
   border-color: #34495e;
   border-width: 0px 0px 0px 0px;
-  color: #e60000;   /* originally #34495e */
+  color: #34495e; 
   font-size: 1rem;
   background-color: rgba(52,73,94,0);
   transition: .2s ease-out;
@@ -675,7 +675,7 @@ legend {
 }
 
 .btn--primary {
-  color: #34495e;   /* originally #34495e. Later tried with red (#e60000)*/
+  color: #3498db;   /* originally #34495e. Later tried with red (#e60000)*/
   border-color: #3498db;
   background-color: rgba(255,255,255,0.2)  /* rgba(52,152,219,0)  */
 }
