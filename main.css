@@ -219,7 +219,7 @@ h1 {
   padding: 0px 0;
   font-style: italic;
   font-size: 14px;
-  color: #ffffff;
+  color: #202020;
   
   .a, .a:visited {color: #e60000;}
 }
@@ -230,7 +230,7 @@ h1 {
 
 #about-tab {
   font-size: 14px;
-  color: #ffffff;
+  color: #202020;
 }
 
 #about-tab.ul li {
