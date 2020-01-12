@@ -448,7 +448,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
  display:inline-block;
  padding:0.3em 1.2em;
  margin:0 0.3em 0.3em 0;
- border-radius:2em;
+ border-radius: 0.3em;
  box-sizing: border-box;
  text-decoration:none;
  font-family:'Roboto',sans-serif;
