@@ -463,13 +463,14 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   vertical-align: middle;
 }
 
-.HOpE-buttons:hover {
-  background-color: #4095c6;
-}
-
 #share-new {
   color:#FFFFFF;
   background-color: #e60000;
+}
+
+.HOpE-buttons:hover, #share-new:hover {
+  color:#FFFFFF;
+  background-color: #4095c6;
 }
 
 
