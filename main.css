@@ -449,32 +449,23 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 }
 
 .HOpE-buttons {
- display: inline-block;
- padding: 0.3em 1.2em;
- margin: 0 0.3em 0.3em 0;
- border-radius: 0.3em;
- box-sizing: border-box;
- text-decoration: none;
- font-weight: 300;
- color: #FFFFFF;
- background-color: #4eb5f1;
- text-align: center;
- transition: all 0.2s;
- 
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #e60000;
+  text-align: center;
+  transition: all 0.2s;
+
   vertical-align: middle;
-  
-  /* original positioning 
-    //margin: 0;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  */
 }
 
 .HOpE-buttons:hover {
- background-color: #4095c6;
+  background-color: #4095c6;
 }
 
 #share-new {
