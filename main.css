@@ -395,13 +395,13 @@ $item-height: 220px;
 
 .picture-item__descriptionbox {
   position: absolute;
-  top: 0; /* originally -5 */
+  top: 1; /* originally -5 */
   display: none;
   float: left;
   z-index: 1;
   align-items: baseline;
   justify-content: space-between;
-  width: 100%;  /* originally 94% */
+  width: 96%;  /* originally 94% */
   padding: 0.5em;
 }
 
@@ -617,8 +617,8 @@ legend {
 
 .btn {
   display: inline-block;
-  padding: .4em .3em;
-  margin: 0px 2px;
+  padding: .3em .3em;
+  margin: 4px 5px;
   text-align: center;
   border-radius: 0.25em;
   border-style: solid;
