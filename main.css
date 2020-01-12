@@ -247,7 +247,8 @@ h1 {
 }
 
 #sort-label {
-  vertical-align: text-top;
+  vertical-align: top;
+  color: #ffffff;
 }
 
 .btn .fa-sort-alpha-down, .fa-calendar, .fa-undo-alt {
