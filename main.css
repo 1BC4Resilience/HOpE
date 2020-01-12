@@ -395,13 +395,13 @@ $item-height: 220px;
 
 .picture-item__descriptionbox {
   position: absolute;
-  top: -5;
+  top: 0; /* originally -5 */
   display: none;
   float: left;
   z-index: 1;
   align-items: baseline;
   justify-content: space-between;
-  width: 94%;
+  width: 100%;  /* originally 94% */
   padding: 0.5em;
 }
 
