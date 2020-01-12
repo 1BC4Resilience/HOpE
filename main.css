@@ -214,7 +214,11 @@ h1 {
   width: 22%; 
 }
 
-#strategy-2030-description {
+#search-element {
+  width: 40%; 
+}
+
+#strategy-2030-description, #search-description {
   margin: auto;
   padding: 0px 0;
   font-style: italic;
