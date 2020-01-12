@@ -269,7 +269,12 @@ h1 {
   color: #ffffff;
 }
 
-#submit-new-opportunity, #clear-filters-element {
+
+#clear-filters-element {
+  
+}
+
+#submit-new-opportunity {
   flex-shrink: 2; 
   display: inline-block;
   border-radius: 15px;
