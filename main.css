@@ -395,7 +395,7 @@ $item-height: 220px;
 
 .picture-item__descriptionbox {
   position: absolute;
-  top: 1; /* originally -5 */
+  top: 2; /* originally -5 */
   display: none;
   float: left;
   z-index: 1;
