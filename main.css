@@ -563,6 +563,14 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   #strategy2030-text {
     display: inline-block;
   }
+  
+  #search-description-element {
+      width: 100%; 
+  }
+  
+  .share-new {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -577,10 +585,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   .picture-item__contact {
     font-size: 0.8em;
     padding: 0.4em;
-  }
-  
-  .share-new {
-    font-size: 12px;
   }
 }
 
