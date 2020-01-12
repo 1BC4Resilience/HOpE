@@ -215,7 +215,7 @@ h1 {
 }
 
 #search-description-element {
-  width: 40%; 
+  width: 50%; 
 }
 
 #strategy-2030-description, #search-description {
@@ -577,6 +577,10 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   .picture-item__contact {
     font-size: 0.8em;
     padding: 0.4em;
+  }
+  
+  .share-new {
+    font-size: 12px;
   }
 }
 
