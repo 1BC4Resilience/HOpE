@@ -220,12 +220,6 @@ h1 {
   font-style: italic;
   font-size: 14px;
   color: #202020;
-  
-  .a, .a:visited {color: #e60000;}
-}
-
-#strategy-2030-description.p.a, #strategy-2030-description.p.a:visited {
-    color: #e60000 !important;
 }
 
 #about-tab {
