@@ -234,7 +234,7 @@ function appendMarkupToPage(markup) {
       '  </div> ', 
       '  </div> ',
       '  <div class="picture-item__details"  style="text-align: center;"> ',   
-      '  <figcaption class="picture-item__title"><a href="https://docs.google.com/forms/d/e/1FAIpQLSenmOfUkMvHnYGsMQaDv0uqz9RLcIQO8o4KHkc1EXIZ04pVWQ/viewform" target="_blank" rel="noopener" style="font-style: italic; font-style: bold; color: #ffffff;">Share your own new opportunity here!</a> ',
+      '  <figcaption class="picture-item__title"><p style="font-style: italic; font-style: bold; color: #ffffff;">Get started!</p> ',
       '  </figcaption> ',
     '</figure>',
         ].join('\n');
