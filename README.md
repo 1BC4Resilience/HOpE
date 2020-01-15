@@ -27,6 +27,7 @@
 1. **Future state:**
    1. In the future the explorer could be hosted on another site (e.g. with the IFRC.org or PrepareCenter.org sites) or with with dedicated domain name. The current version is intended as a prototype to test user interest and utility and to begin to build a solid set of relevant Opportunities.
    1. The current usage of Google Sheets and Google forms could be changed to use the IFRC’s Kobo form and server service instead.
+   1. Integreate two new feature sets: a) a **filter by user / stakeholder** and b) a **gap analysis** feature to show where existing tools and opportunities contribute and where gaps still exist.
 
 1. **New features to potentially add:**
    1. fix minor bug so that the search still works when filters are selected
