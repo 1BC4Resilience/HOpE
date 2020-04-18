@@ -256,7 +256,7 @@ setInterval(function(){
     document.getElementById('Intro_text1').style.display = visible ? 'none' : 'block'; // use short if/else to decide which value to user
     document.getElementById('Intro_text2').style.display    = visible ? 'block' : 'none'; // short if/else is called ternairy
     visible = !visible; // reverse the value of itself
-}, 3000);
+}, 5000);
  
 /**
  * Enable click on entry to toggle additional description elements.
