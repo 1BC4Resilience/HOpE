@@ -495,7 +495,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .picture-item--overlay {
     .picture-item__details {
       position: absolute;
@@ -525,7 +525,7 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
   .picture-item {
     height: auto;
     margin-top: 20px;
@@ -533,13 +533,13 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
   .picture-item__details,
   .picture-item__description {
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 0.4em;
   }
 
   .picture-item__location,
   .picture-item__contact {
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 0.4em;
   }
   
