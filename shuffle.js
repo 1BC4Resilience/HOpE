@@ -251,18 +251,12 @@ function appendMarkupToPage(markup) {
  * Animate intro text on starter card.
  * 
  */
-var divs = $('div[id^="Intro_text"]').hide(),
-    i = 0;
-
-(function cycle() { 
-
-    divs.eq(i).fadeIn(400)
-              .delay(1000)
-              .fadeOut(400, cycle);
-
-    i = ++i % divs.length;
-
-})();
+var visible = true;
+setInterval(function(){
+    document.getElementById('Intro_text1').style.display = visible ? 'none' : 'block'; // use short if/else to decide which value to user
+    document.getElementById('IntroText2').style.display    = visible ? 'block' : 'none'; // short if/else is called ternairy
+    visible = !visible; // reverse the value of itself
+}, 3000);
  
 /**
  * Enable click on entry to toggle additional description elements.
