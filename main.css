@@ -568,21 +568,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   }
 }
 
-@media screen and (max-width: 500px) {
-
-  .picture-item__details,
-  .picture-item__description {
-    font-size: 0.8em;
-    padding: 0.4em;
-  }
-
-  .picture-item__location,
-  .picture-item__contact {
-    font-size: 0.8em;
-    padding: 0.4em;
-  }
-}
-
 
 // Filter styling
 // --------------
