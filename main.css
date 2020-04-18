@@ -290,11 +290,6 @@ h1 {
   transform: translate(-50%, -50%);
   background-color: white;
   opacity:0.6;
-  animation-duration: 5s;
-}
-
-#Intro_text2  {
-  animation-delay: 5s;
 }
 
 figure {
