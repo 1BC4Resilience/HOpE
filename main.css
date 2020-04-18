@@ -283,6 +283,13 @@ h1 {
    border-radius: 15px; 
 }
 
+#Intro_text1, #Intro_text2  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 figure {
   margin: 0;
   //padding: 0;
