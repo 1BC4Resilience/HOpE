@@ -231,6 +231,8 @@ function appendMarkupToPage(markup) {
       '<figure id="starter-card" class="col-6@xs col-3@xs col-4@sm col-4@md picture-item shuffle-item shuffle-item--visible" data-groups="[\'all\']" data-date-created="2025-08-27" data-title="Add your own new opportunity here!">',
       ' <div class="picture-item__inner" style="background: #d18479;">  <div class="aspect aspect--16x9" onclick="javascript:location.href=\'https://docs.google.com/forms/d/e/1FAIpQLSenmOfUkMvHnYGsMQaDv0uqz9RLcIQO8o4KHkc1EXIZ04pVWQ/viewform\'">',    
       ' <div class="aspect__inner">      <img src="./img/Start01.gif"> ',   
+      '  <div id="Intro_text1">Click on the cards to see a short summary of each opportunity!</div> ', 
+      '  <div id="Intro_text2">Or click on the title of the card to go to the website for that opportunity.</div> ', 
       '  </div> ', 
       '  </div> ',
       '  <div class="picture-item__details"  style="text-align: center;"> ',   
