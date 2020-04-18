@@ -285,14 +285,12 @@ h1 {
 
 #Intro_text1, #Intro_text2  {
   position: absolute;
-  top: 50%;
-  transform: translate(-50%);
   background-color: white;
   opacity:0.7;
   font-size: 1.2em;
   padding: 12px;
   display: none;
-
+  width: 50%;
 }
 
 figure {
