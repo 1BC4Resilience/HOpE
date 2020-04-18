@@ -34,8 +34,9 @@
 <div class="container">
   <div class="row">
     <div class="col-12@sm">
-    <div id="google_translate_element" style="text-align: right;"></div>
-
+    <div id="google_translate_element" style="text-align: right;">
+      <img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;">
+    </div>
       <script type="text/javascript">
       function googleTranslateElementInit() {
           new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'google_translate_element');
@@ -48,7 +49,6 @@
     	.goog-logo-link {
     		display:none !important;
     	} 
-
     	.goog-te-gadget{
     		color: transparent !important;
     	}
@@ -62,7 +62,13 @@
     		background-color: transparent !important;
     		border: none !important; 
     		box-shadow: none !important;
-    	}	      
+    	}
+    	.goog-te-banner-frame.skiptranslate {
+    		display: none !important;
+    	} 
+    	body {
+    		top: 0px !important; 
+    }
 	      
     </style>
     </div>
