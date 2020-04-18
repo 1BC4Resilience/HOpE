@@ -938,7 +938,7 @@ legend {
   width: 100%;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 500px) {
   
   .col-3\@xs {
     width: 50%;
