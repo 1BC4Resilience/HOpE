@@ -498,6 +498,22 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
 
 @media screen and (min-width: 800px) {
   #strategy-2030-element {
+      display: block; 
+  }
+  
+  #strategy2030-text {
+    display: none;
+  }
+  
+  #search-description-element {
+      width: 100%; 
+  }
+  
+}
+
+
+@media screen and (max-width: 799px) {
+  #strategy-2030-element {
       display: none; 
   }
   
@@ -533,10 +549,6 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
       color: white;
       text-shadow: 0 0 1px black;
     }
-  }
-  
-  #strategy2030-text {
-    display: none;
   }
   
 }
