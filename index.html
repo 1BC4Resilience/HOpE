@@ -38,13 +38,20 @@
 
       <script type="text/javascript">
       function googleTranslateElementInit() {
-          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'google_translate_element');
       }
       </script>
 
       <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	    
       <style>
+    	.goog-logo-link {
+    		display:none !important;
+    	} 
+
+    	.goog-te-gadget{
+    		color: transparent !important;
+    	}
     	.goog-tooltip {
     		display: none !important;
     	}
