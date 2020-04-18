@@ -926,10 +926,8 @@ legend {
   width: 33.33333%;
 }
 
-
-// Ian - was 50%
 .col-3\@xs {
-  width: 83.33333%;
+  width: 50%;
 }
 
 .col-4\@xs {
