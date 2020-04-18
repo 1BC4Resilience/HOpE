@@ -284,7 +284,6 @@ h1 {
 }
 
 #Intro_text1, #Intro_text2  {
-  position: absolute;
   background-color: white;
   opacity:0.7;
   font-size: 1.2em;
