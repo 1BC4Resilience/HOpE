@@ -926,10 +926,6 @@ legend {
   width: 33.33333%;
 }
 
-.col-3\@xs {
-  width: 50%;
-}
-
 .col-4\@xs {
   width: 66.66667%;
 }
@@ -940,6 +936,14 @@ legend {
 
 .col-6\@xs {
   width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+  
+  .col-3\@xs {
+    width: 50%;
+  }
+  
 }
 
 @media screen and (min-width: 768px) {
