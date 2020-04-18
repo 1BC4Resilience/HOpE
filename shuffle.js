@@ -245,6 +245,24 @@ function appendMarkupToPage(markup) {
 
   gridContainerElement.insertAdjacentHTML('afterbegin', markup);
 }
+
+
+/**
+ * Animate intro text on starter card.
+ * 
+ */
+var divs = $('div[id^="Intro_text"]').hide(),
+    i = 0;
+
+(function cycle() { 
+
+    divs.eq(i).fadeIn(400)
+              .delay(1000)
+              .fadeOut(400, cycle);
+
+    i = ++i % divs.length;
+
+})();
  
 /**
  * Enable click on entry to toggle additional description elements.
