@@ -31,6 +31,7 @@
   </div>
 </div>
   
+<div class="clearfix">
 <div class="container">
   <div class="row">
     <div class="col-12@sm">
@@ -49,16 +50,21 @@
     		background-color: #ededed;
 		float: right;
 		white-space: nowrap;
-		display: block;
-		overflow: auto;
     	}
     	div#div.goog-te-menu2 {
     		background-color: #ededed;
-    	}	      
+    	}
+	      
+    	.clearfix::after {
+    		content: "";
+    		clear: both;
+    		display: table;
+    	}
 	      
     </style>
     </div>
   </div>
+</div>
 </div>
 	
 	
