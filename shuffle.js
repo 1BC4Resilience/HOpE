@@ -253,8 +253,8 @@ function appendMarkupToPage(markup) {
  */
 var visible = true;
 setInterval(function(){
-    document.getElementById('Intro_text1').style.display = visible ? 'none' : 'block'; // use short if/else to decide which value to user
-    document.getElementById('Intro_text2').style.display    = visible ? 'block' : 'none'; // short if/else is called ternairy
+    document.getElementById('Intro_text2').style.display = visible ? 'none' : 'block'; // use short if/else to decide which value to user
+    document.getElementById('Intro_text1').style.display    = visible ? 'block' : 'none'; // short if/else is called ternairy
     visible = !visible; // reverse the value of itself
 }, 5000);
  
