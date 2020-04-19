@@ -229,7 +229,7 @@ function getItemMarkup(items) {
 function appendMarkupToPage(markup) {
   var addNewOpportunities = [
       '<figure id="starter-card" class="col-6@xs col-3@xs col-4@sm col-4@md picture-item shuffle-item shuffle-item--visible" data-groups="[\'all\']" data-date-created="2025-08-27" data-title="Add your own new opportunity here!">',
-      ' <div class="picture-item__inner" style="background: #d18479;">  <div class="aspect aspect--16x9">',    
+      ' <div class="picture-item__inner" style="background: #d18479;">  <div class="aspect aspect--16x9" onClick="toggledisplay(\'Start_card_descriptionbox-1\')">',    
       ' <div class="aspect__inner">      <img src="./img/Start_rt.jpg"> ',   
       '  <div id="Intro_text1">Click on the cards to see a short summary of each opportunity!</div> ', 
       '  <div id="Intro_text2">Or click on the title of the card to go to the website for that opportunity.</div> ', 
@@ -239,7 +239,7 @@ function appendMarkupToPage(markup) {
       '  <figcaption class="picture-item__title"><span style="font-style: italic; font-style: bold; color: #ffffff;">Get started!</span> ',
       '  </figcaption> ',
       '  </div> ',
-      '<div id="Start_card_descriptionbox-1" class="Start_card_descriptionbox" style="display: none;" onClick="toggledisplay(\'Start_card_descriptionbox-1\')">',
+      '<div id="Start_card_descriptionbox-1" class="Start_card_descriptionbox" style="display: none;">',
       '  <div class="back"></div>',
       '  <span class="Start_card_description">Excellent. You have the hang of it. Click again to hide the text description on a card.</span>',
       '</div>',
