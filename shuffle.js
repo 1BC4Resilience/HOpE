@@ -239,9 +239,9 @@ function appendMarkupToPage(markup) {
       '  <figcaption class="picture-item__title"><span style="font-style: italic; font-style: bold; color: #ffffff;">Get started!</span> ',
       '  </figcaption> ',
       '  </div> ',
-      '<div id="Start_card_descriptionbox-1' + '" class="Start_card_descriptionbox" style="display: none;" onClick="toggledisplay(\'Start_card_descriptionbox-1' + '\')">',
+      '<div id="Start_card_descriptionbox-1" class="Start_card_descriptionbox" style="display: none;" onClick="toggledisplay(\'Start_card_descriptionbox-1\')">',
       '  <div class="back"></div>',
-      '  <span class="Start_card_description">' + 'Excellent. You have the hang of it. Click again to hide the text description on a card.' + '</span>',
+      '  <span class="Start_card_description">Excellent. You have the hang of it. Click again to hide the text description on a card.</span>',
       '</div>',
     '</figure>',
         ].join('\n');
