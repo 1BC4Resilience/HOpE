@@ -403,7 +403,7 @@ p {
   visibility: hidden;
 }
 
-$picture-gutter: 24px;
+$picture-gutter: 40px; /* was 24px */
 $item-height: 220px;
 .picture-item {
   height: 220px;
@@ -413,8 +413,6 @@ $item-height: 220px;
     display: block;
     width: 100%;
   }
-  
-  margin-top: 14px;
 }
 
 @supports (object-fit: cover) {
