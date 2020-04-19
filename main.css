@@ -485,6 +485,33 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
   font-size: 0.9em;
 }
 
+.Start_card_descriptionbox {
+  position: absolute;
+  top: 2; /* originally -5 */
+  display: none;
+  float: left;
+  z-index: 1;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 96%;  /* originally 94% */
+  padding: 0.5em;
+}
+
+.Start_card_descriptionbox .back {
+    position: absolute; z-index: 2;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: white; opacity: 0.80;
+}
+
+.Start_card_description {
+  position: relative; 
+  z-index: 3;
+  display: inline !important;
+  padding: 0 1em 0.3em 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
 .picture-item__location {
   position: relative; 
   display: none;
