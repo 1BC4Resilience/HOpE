@@ -23,6 +23,54 @@ h1 {
   color: #ffffff;
 }
 
+/* Tranlsation settings */
+
+#google_translate_element:before {
+    font-family: 'Material Icons';
+    content: "\E927";
+    margin-left: 20px;
+    font-size: 1.4rem;
+    color: white;
+    display: block;
+    float: right;
+}
+
+.goog-logo-link {
+    display:none !important;
+} 
+
+.goog-te-gadget{
+    color: transparent !important;
+}
+
+.goog-tooltip {
+    display: none !important;
+}
+
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+} 
+
+body {
+    top: 0px !important; 
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+select:focus, textarea:focus, input:focus {
+        font-size: 16px;
+    }
+}
+
 /* Intro section, with dynamic show & hide */
 
 .intro-tour-header {
