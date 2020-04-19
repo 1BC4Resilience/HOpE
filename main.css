@@ -644,7 +644,6 @@ body.browser-ie8 .Start_card_descriptionbox .back { filter: alpha(opacity=80); }
 }
 
 // Section to add vertical spacing between cards
-// (Needs to happen by media query, otherwise it does not seem to take effect.)
 // --------------
 @media screen and (min-width: 10px) {
   .picture-item {
