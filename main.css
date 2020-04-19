@@ -503,6 +503,8 @@ body.browser-ie8 .picture-item__descriptionbox .back { filter: alpha(opacity=80)
     background: white; opacity: 0.80;
 }
 
+body.browser-ie8 .Start_card_descriptionbox .back { filter: alpha(opacity=80); }
+
 .Start_card_description {
   position: relative; 
   z-index: 3;
