@@ -403,7 +403,7 @@ p {
   visibility: hidden;
 }
 
-$picture-gutter: 40px; /* was 24px */
+$picture-gutter: 24px;
 $item-height: 220px;
 .picture-item {
   height: 220px;
@@ -643,6 +643,16 @@ body.browser-ie8 .Start_card_descriptionbox .back { filter: alpha(opacity=80); }
   
 }
 
+@media screen and (min-width: 10px) {
+  .picture-item {
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .picture-item--h2 {
+    height: auto;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .picture-item {
