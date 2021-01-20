@@ -700,6 +700,10 @@ body.browser-ie8 .Start_card_descriptionbox .back { filter: alpha(opacity=80); }
   clear: both;
 }
 
+#enablers-text {
+  font-size: 80%;
+}
+
 legend {
   padding: 6px 0 6px 0;
 }
